@@ -1,0 +1,1092 @@
+2024-10-17 21:09:25.119 [RiskManager-11] ERROR com.tradingapp.auth.AuthenticationService - User authentication failed
+2024-10-17 21:09:25.234	[MarketDataThread-3] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Loading user preferences
+2024-10-17 21:09:25.507 [MarketDataThread-3] DEBUG com.tradingapp.network.NetworkManager - Retrying failed operation
+2024-10-17 21:09:25.790	[OrderThread-1] WARN com.tradingapp.execution.ExecutionEngine - Thread pool exhausted
+2024-10-17 21:09:25.890	[NotificationService-13] INFO com.tradingapp.config.ConfigLoader - Trade settled successfully
+2024-10-17 21:09:26.368 [NetworkThread-8] INFO com.tradingapp.auth.AuthenticationService - Session token refreshed
+2024-10-17 21:09:26.744	[NetworkThread-8] DEBUG - Refreshing API tokens
+2024-10-17 21:09:26.953 [ExecThread-2] DEBUG com.tradingapp.marketdata.MarketDataHandler - Decrypting received data
+2024-10-17 21:09:26.955	[ReportGenerator-14] WARN com.tradingapp.alert.AlertManager - Data inconsistency found
+2024-10-17 21:09:27.073 [TradeProcessor-10] INFO com.tradingapp.cache.CacheManager - Trade limit reset
+Current Configuration:
+database_url = jdbc:mysql://localhost:3306/tradingdb
+retry_attempts = 5
+security_protocol = TLS1.2
+backup_schedule = 02:00 AM daily
+session_timeout = 45
+data_retention_days = 365
+currency_supported = USD, EUR, GBP, JPY
+notification_emails = admin@tradingapp.com,support@tradingapp.com
+timeout_seconds = 30
+allowed_ip_addresses = 192.168.1.1,192.168.1.2
+maintenance_mode = false
+max_trade_volume = 1000000
+min_order_size = 10
+max_connections = 100
+enable_logging = true
+api_key = abcd1234efgh5678
+exchange_endpoint = wss://exchange.example.com/socket
+feature_flag_new_ui = false
+log_level = DEBUG
+cache_size = 1024
+secret_key = wxyz9876tsrq5432
+
+2024-10-17 21:09:27.610	[AnalyticsThread-7] DEBUG com.tradingapp.marketdata.MarketDataHandler - Configuring network settings
+2024-10-17 21:09:27.655	[AnalyticsThread-7] INFO com.tradingapp.utils.DatabaseConnector - Historical data loaded
+2024-10-17 21:09:28.109	[ExecThread-2] INFO com.tradingapp.execution.ExecutionEngine - Position updated in portfolio
+2024-10-17 21:09:28.556	[main] DEBUG com.tradingapp.auth.AuthenticationService - Processing batch job
+2024-10-17 21:09:29.032	[RiskManager-11] ERR ... - Failed to bind to port
+2024-10-17 21:09:29.364 [DataIngestion-12] DEBUG com.tradingapp.auth.AuthenticationService - Parsing JSON response
+2024-10-17 21:09:29.586	[CacheThread-5] WARN com.tradingapp.analytics.AnalyticsProcessor - Memory leak detected in module
+2024-10-17 21:09:29.630 [main] INFO com.tradingapp.order.OrderService - Connection established with exchange
+2024-10-17 21:09:30.044	[CacheThread-5] INFO com.tradingapp.auth.AuthenticationService - Exchange rate updated
+2024-10-17 21:09:30.048 [DataIngestion-12] DEBUG com.tradingapp.utils.DatabaseConnector - Message queue size: 42
+2024-10-17 21:09:30.501 [main] INFO com.tradingapp.analytics.AnalyticsProcessor - Heartbeat received from exchange
+2024-10-17 21:09:30.969 [BackupThread-15] WARN com.tradingapp.auth.AuthenticationService - Configuration parameter missing, using default
+2024-10-17 21:09:31.407	[ReportGenerator-14] ERROR com.tradingapp.network.NetworkManager - Failed to initialize cache
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.network.NetworkManager.methodB(NetworkManager.java:78)
+	at com.tradingapp.network.NetworkManager.methodA(NetworkManager.java:56)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2024-10-17 21:09:31.796	[OrderThread-1] WARN com.tradingapp.execution.ExecutionEngine - Retrying connection to exchange
+2024-10-17 21:09:32.279 [main] INFO com.tradingapp.analytics.AnalyticsProcessor - Compliance check passed
+2024-10-17 21:09:32.701	[RiskManager-11] INFO com.tradingapp.analytics.AnalyticsProcessor - Heartbeat received from exchange
+2024-10-17 21:09:32.964	[DBThread-9] WARN com.tradingapp.marketdata.MarketDataHandler - Order quantity exceeds threshold
+2024-10-17 21:09:33.038 [DBThread-9] INFO com.tradingapp.network.NetworkManager - External API call successful
+2024-10-17 21:09:33.458	[TradeProcessor-10] WARN com.tradingapp.network.NetworkManager - Unusual trading volume observed
+2024-10-17 21:09:33.897 [AnalyticsThread-7] ERROR com.tradingapp.network.NetworkManager - Data corruption detected
+	at com.tradingapp.network.NetworkManager.methodA(NetworkManager.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2024-10-17 21:09:33.975	[NetworkThread-8] DEBUG com.tradingapp.marketdata.MarketDataHandler - Retrying failed operation
+2024-10-17 21:09:34.287	[NotificationService-13] INFO com.tradingapp.utils.DatabaseConnector - New trading session started
+2024-10-17 21:09:34.337	[main] DEBUG com.tradingapp.execution.ExecutionEngine - Message queue size: 42
+2024-10-17 21:09:34.803	[main] INFO com.tradingapp.analytics.AnalyticsProcessor - Risk parameters evaluated
+2024-10-17 21:09:35.293 [BackupThread-15] INFO com.tradingapp.marketdata.MarketDataHandler - Price feed subscribed
+2024-10-17 21:09:35.542 [TradeProcessor-10] INFO com.tradingapp.network.NetworkManager - Trade history archived
+2024-10-17 21:09:35.879 [main] DEBUG - Deserializing request payload
+2024-10-17 21:09:36.354	[ExecThread-2] WARN com.tradingapp.alert.AlertManager - High CPU usage detected
+2024-10-17 21:09:36.558 [NetworkThread-8] WARN com.tradingapp.alert.AlertManager - Unsupported protocol version
+2024-10-17 21:09:36.667 [AuthThread-4] DEBUG com.tradingapp.utils.DatabaseConnector - Decrypting received data
+2024-10-17 21:09:37.127 [OrderThread-1] WARN com.tradingapp.order.OrderService - Failed to acquire necessary locks
+2024-10-17 21:09:37.587 [AlertThread-6] ERR com.tradingapp.analytics.AnalyticsProcessor - Failed to log user activity
+2024-10-17 21:09:38.046	[AuthThread-4] DEBUG com.tradingapp.execution.ExecutionEngine - Thread synchronization complete
+2024-10-17 21:09:38.162	[TradeProcessor-10] DEBUG com.tradingapp.cache.CacheManager - Analyzing trade patterns
+2024-10-17 21:09:38.395 [NotificationService-13] DEBUG com.tradingapp.marketdata.MarketDataHandler - Executing unit tests
+2024-10-17 21:09:38.774	[RiskManager-11] INFO com.tradingapp.order.OrderService - Portfolio rebalanced
+2024-10-17 21:09:39.242	[MarketDataThread-3] DEBUG com.tradingapp.execution.ExecutionEngine - Capturing screenshot for debugging
+2024-10-17 21:09:39.455	[DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - User notification sent
+2024-10-17 21:09:39.533	[AlertThread-6] DEBUG com.tradingapp.config.ConfigLoader - Processing trade execution
+2024-10-17 21:09:39.845 [OrderThread-1] DEBUG - Balancing load across servers
+2024-10-17 21:09:39.989 [NetworkThread-8] ERR com.tradingapp.auth.AuthenticationService - Failed to restart service
+2024-10-17 21:09:40.225	[TradeProcessor-10] DEBUG com.tradingapp.execution.ExecutionEngine - Tracking user session
+2024-10-17 21:09:40.406	[CacheThread-5] INFO com.tradingapp.execution.ExecutionEngine - Portfolio rebalanced
+2024-10-17 21:09:40.440 [DBThread-9] WARN com.tradingapp.marketdata.MarketDataHandler - Slow response from database
+2024-10-17 21:09:40.662 [DBThread-9] INFO com.tradingapp.cache.CacheManager - Heartbeat received from exchange
+2024-10-17 21:09:40.765 [NotificationService-13] INFO com.tradingapp.alert.AlertManager - Asset allocation adjusted
+2024-10-17 21:09:41.153 [BackupThread-15] DEBUG com.tradingapp.config.ConfigLoader - Configuring network settings
+2024-10-17 21:09:41.448	[MarketDataThread-3] INFO com.tradingapp.network.NetworkManager - Trade confirmation received
+2024-10-17 21:09:41.467 [DBThread-9] DEBUG com.tradingapp.utils.DatabaseConnector - Session token generated
+2024-10-17 21:09:41.721 [OrderThread-1] WARN com.tradingapp.order.OrderService - Potential deadlock detected
+2024-10-17 21:09:41.932 [CacheThread-5] DEBUG com.tradingapp.marketdata.MarketDataHandler - Synchronizing database state
+2024-10-17 21:09:42.018	[CacheThread-5] DEBUG com.tradingapp.auth.AuthenticationService - Thread started
+2024-10-17 21:09:42.061 [AuthThread-4] INFO com.tradingapp.auth.AuthenticationService - Margin requirements updated
+2024-10-17 21:09:42.175	[AuthThread-4] ERR com.tradingapp.marketdata.MarketDataHandler - Dependency injection failed
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at com.tradingapp.marketdata.MarketDataHandler.methodA(MarketDataHandler.java:56)
+2024-10-17 21:09:42.491 [OrderThread-1] INFO com.tradingapp.analytics.AnalyticsProcessor - Order status synchronized
+2024-10-17 21:09:42.735 [CacheThread-5] INFO com.tradingapp.config.ConfigLoader - Risk parameters evaluated
+2024-10-17 21:09:43.114 [MarketDataThread-3] WARN com.tradingapp.network.NetworkManager - Disk space running low
+2024-10-17 21:09:43.238 [CacheThread-5] INFO com.tradingapp.marketdata.MarketDataHandler - Balance updated
+2024-10-17 21:09:43.461 [CacheThread-5] WARN com.tradingapp.utils.DatabaseConnector - High memory usage
+2024-10-17 21:09:43.641	[MarketDataThread-3] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Processing trade execution
+2024-10-17 21:09:43.872	[CacheThread-5] DEBUG com.tradingapp.auth.AuthenticationService - Analyzing trade patterns
+2024-10-17 21:09:44.196	[MarketDataThread-3] ERROR com.tradingapp.cache.CacheManager - Unable to update balance
+2024-10-17 21:09:44.335 [DBThread-9] DEBUG - Synchronizing database state
+2024-10-17 21:09:44.459	[ReportGenerator-14] INFO com.tradingapp.config.ConfigLoader - User preferences saved
+2024-10-17 21:09:44.548 [CacheThread-5] INFO com.tradingapp.cache.CacheManager - Order book updated
+2024-10-17 21:09:44.972	[AnalyticsThread-7] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Compressing log data
+2024-10-17 21:09:45.243	[OrderThread-1] WARN com.tradingapp.alert.AlertManager - Failed to write to log file
+2024-10-17 21:09:45.484	[AnalyticsThread-7] DEBUG com.tradingapp.marketdata.MarketDataHandler - Configuring network settings
+2024-10-17 21:09:45.915 [DataIngestion-12] INFO com.tradingapp.network.NetworkManager - User notification sent
+2024-10-17 21:09:45.927 [main] WARN com.tradingapp.auth.AuthenticationService - Invalid trade signal received
+2024-10-17 21:09:46.073	[BackupThread-15] DEBUG com.tradingapp.network.NetworkManager - Loading user preferences
+2024-10-17 21:09:46.419 [ReportGenerator-14] WARN com.tradingapp.alert.AlertManager - Deprecated API used
+2024-10-17 21:09:46.755 [AnalyticsThread-7] DEBUG com.tradingapp.auth.AuthenticationService - Parsing configuration file
+2024-10-17 21:09:46.869 [DataIngestion-12] WARN com.tradingapp.network.NetworkManager - Failed to write to log file
+2024-10-17 21:09:47.054 [ExecThread-2] INFO com.tradingapp.config.ConfigLoader - Heartbeat received from exchange
+2024-10-17 21:09:47.127	[main] WARN com.tradingapp.auth.AuthenticationService - Failed to acquire necessary locks
+2024-10-17 21:09:47.240	[NetworkThread-8] WARN com.tradingapp.utils.DatabaseConnector - Cache miss occurred
+2024-10-17 21:09:47.359	[TradeProcessor-10] DEBUG com.tradingapp.execution.ExecutionEngine - Monitoring system health
+2024-10-17 21:09:47.724 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Trade history archived
+2024-10-17 21:09:48.008	[AnalyticsThread-7] DEBUG com.tradingapp.marketdata.MarketDataHandler - Updating cache entries
+2024-10-17 21:09:48.390 [RiskManager-11] INFO com.tradingapp.execution.ExecutionEngine - Heartbeat received from exchange
+2024-10-17 21:09:48.631 [AlertThread-6] INFO com.tradingapp.network.NetworkManager - Order status synchronized
+2024-10-17 21:09:49.080 [ReportGenerator-14] INFO com.tradingapp.utils.DatabaseConnector - Price feed subscribed
+2024-10-17 21:09:49.377 [AnalyticsThread-7] ERR com.tradingapp.config.ConfigLoader - Failed to bind to port
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.config.ConfigLoader.methodA(ConfigLoader.java:56)
+	at com.tradingapp.config.ConfigLoader.methodB(ConfigLoader.java:78)
+2024-10-17 21:09:49.612 [BackupThread-15] INFO com.tradingapp.analytics.AnalyticsProcessor - Position updated in portfolio
+2024-10-17 21:09:49.713 [main] INFO com.tradingapp.network.NetworkManager - Scheduled maintenance completed
+2024-10-17 21:09:49.719 [OrderThread-1] INFO com.tradingapp.marketdata.MarketDataHandler - Exchange rate updated
+2024-10-17 21:09:49.985	[main] DEBUG com.tradingapp.network.NetworkManager - Thread synchronization complete
+2024-10-17 21:09:50.326 [ExecThread-2] DEBUG com.tradingapp.network.NetworkManager - Refreshing API tokens
+2024-10-17 21:09:50.448 [NotificationService-13] INFO com.tradingapp.order.OrderService - Price feed subscribed
+2024-10-17 21:09:50.584 [CacheThread-5] DEBUG com.tradingapp.execution.ExecutionEngine - Garbage collection initiated
+2024-10-17 21:09:50.994	[NetworkThread-8] WARN - Slow response from database
+2024-10-17 21:09:51.464	[NetworkThread-8] INFO com.tradingapp.network.NetworkManager - Historical data loaded
+2024-10-17 21:09:51.838	[NetworkThread-8] DEBUG com.tradingapp.network.NetworkManager - Aggregating metrics data
+2024-10-17 21:09:51.881	[NotificationService-13] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Managing thread pool
+2024-10-17 21:09:52.095 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Configuration loaded successfully
+2024-10-17 21:09:52.314	[main] DEBUG com.tradingapp.network.NetworkManager - Rotating log files
+2024-10-17 21:09:52.500 [main] DEBUG com.tradingapp.utils.DatabaseConnector - Rotating log files
+2024-10-17 21:09:52.807 [AuthThread-4] INFO com.tradingapp.auth.AuthenticationService - Cache initialized
+2024-10-17 21:09:52.854	[AnalyticsThread-7] WARN com.tradingapp.execution.ExecutionEngine - Failed to retrieve user data
+2024-10-17 21:09:53.314	[TradeProcessor-10] INFO com.tradingapp.auth.AuthenticationService - Market data update processed
+2024-10-17 21:09:53.532 [ReportGenerator-14] INFO com.tradingapp.alert.AlertManager - Order received for execution
+2024-10-17 21:09:53.704 [ExecThread-2] INFO com.tradingapp.network.NetworkManager - Liquidity provision optimized
+2024-10-17 21:09:53.751 [AuthThread-4] DEBUG com.tradingapp.utils.DatabaseConnector - Resolving DNS query
+2024-10-17 21:09:53.993	[TradeProcessor-10] DEBUG com.tradingapp.utils.DatabaseConnector - Message queue size: 42
+2024-10-17 21:09:54.079	[AnalyticsThread-7] DEBUG com.tradingapp.auth.AuthenticationService - Loading external libraries
+2024-10-17 21:09:54.290	[ReportGenerator-14] ERROR com.tradingapp.utils.DatabaseConnector - Timeout while waiting for response
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at com.tradingapp.utils.DatabaseConnector.methodA(DatabaseConnector.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2024-10-17 21:09:54.774 [MarketDataThread-3] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Thread synchronization complete
+2024-10-17 21:09:54.906 [AnalyticsThread-7] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Compressing log data
+2024-10-17 21:09:55.402 [BackupThread-15] DEBUG com.tradingapp.marketdata.MarketDataHandler - Decrypting received data
+2024-10-17 21:09:55.684 [OrderThread-1] WARN com.tradingapp.alert.AlertManager - Unrecognized message type
+2024-10-17 21:09:55.848 [CacheThread-5] WARN com.tradingapp.cache.CacheManager - Resource utilization exceeds limits
+2024-10-17 21:09:55.948	[main] WARN com.tradingapp.network.NetworkManager - Deprecated API used
+2024-10-17 21:09:56.107 [AuthThread-4] INFO com.tradingapp.auth.AuthenticationService - Trade limit reset
+2024-10-17 21:09:56.351	[NotificationService-13] INFO com.tradingapp.config.ConfigLoader - Margin requirements updated
+2024-10-17 21:09:56.587	[RiskManager-11] DEBUG com.tradingapp.marketdata.MarketDataHandler - Establishing secure connection
+2024-10-17 21:09:56.708	[ExecThread-2] INFO com.tradingapp.order.OrderService - Historical data loaded
+2024-10-17 21:09:57.024 [NotificationService-13] DEBUG com.tradingapp.execution.ExecutionEngine - Decompressing data stream
+2024-10-17 21:09:57.322	[NetworkThread-8] DEBUG com.tradingapp.alert.AlertManager - Aggregating metrics data
+2024-10-17 21:09:57.573	[DataIngestion-12] INFO com.tradingapp.analytics.AnalyticsProcessor - Risk parameters evaluated
+2024-10-17 21:09:57.893	[ReportGenerator-14] WARN com.tradingapp.marketdata.MarketDataHandler - Resource utilization exceeds limits
+2024-10-17 21:09:58.086 [NetworkThread-8] INFO com.tradingapp.alert.AlertManager - Liquidity provision optimized
+2024-10-17 21:09:58.398	[OrderThread-1] ERROR com.tradingapp.analytics.AnalyticsProcessor - Memory allocation failed
+2024-10-17 21:09:58.556 [ReportGenerator-14] ERROR com.tradingapp.marketdata.MarketDataHandler - Failed to allocate buffer memory
+2024-10-17 21:09:58.657	[NetworkThread-8] ERR com.tradingapp.network.NetworkManager - Configuration validation failed
+2024-10-17 21:09:58.758 [MarketDataThread-3] INFO com.tradingapp.execution.ExecutionEngine - Cache initialized
+2024-10-17 21:09:58.791	[ReportGenerator-14] DEBUG com.tradingapp.cache.CacheManager - Message queue size: 42
+2024-10-17 21:09:58.816 [DataIngestion-12] DEBUG com.tradingapp.cache.CacheManager - Capturing screenshot for debugging
+2024-10-17 21:09:58.910 [CacheThread-5] ERR ... - Error during data migration
+2024-10-17 21:09:59.046	[DataIngestion-12] ERROR com.tradingapp.utils.DatabaseConnector - Service unavailable
+2024-10-17 21:09:59.195	[MarketDataThread-3] DEBUG com.tradingapp.config.ConfigLoader - Balancing load across servers
+2024-10-17 21:09:59.694 [AuthThread-4] INFO com.tradingapp.utils.DatabaseConnector - User preferences saved
+2024-10-17 21:09:59.747 [OrderThread-1] DEBUG com.tradingapp.order.OrderService - Tracking user session
+2024-10-17 21:09:59.899	[AnalyticsThread-7] WARN com.tradingapp.marketdata.MarketDataHandler - Slow response from database
+2024-10-17 21:10:00.141 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Liquidity provision optimized
+2024-10-17 21:10:00.477	[OrderThread-1] WARN com.tradingapp.auth.AuthenticationService - Failed to write to log file
+2024-10-17 21:10:00.754	[NotificationService-13] INFO com.tradingapp.network.NetworkManager - Historical data loaded
+2024-10-17 21:10:01.242 [NetworkThread-8] INFO com.tradingapp.alert.AlertManager - Market summary generated
+2024-10-17 21:10:01.673	[CacheThread-5] INFO com.tradingapp.order.OrderService - Risk parameters evaluated
+2024-10-17 21:10:02.042	[CacheThread-5] DEBUG com.tradingapp.config.ConfigLoader - Parsing JSON response
+2024-10-17 21:10:02.196	[AuthThread-4] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Temporary file created
+2024-10-17 21:10:02.474 [AuthThread-4] INFO com.tradingapp.order.OrderService - Session token refreshed
+2024-10-17 21:10:02.946	[ReportGenerator-14] DEBUG com.tradingapp.cache.CacheManager - Resolving DNS query
+2024-10-17 21:10:03.011	[DataIngestion-12] INFO com.tradingapp.order.OrderService - Position updated in portfolio
+2024-10-17 21:10:03.435 [AnalyticsThread-7] DEBUG com.tradingapp.marketdata.MarketDataHandler - Analyzing trade patterns
+2024-10-17 21:10:03.911	[RiskManager-11] WARN com.tradingapp.utils.DatabaseConnector - Data inconsistency found
+2024-10-17 21:10:04.049 [CacheThread-5] WARN - Connection timeout with broker
+2024-10-17 21:10:04.426	[CacheThread-5] DEBUG com.tradingapp.config.ConfigLoader - Validating transaction integrity
+2024-10-17 21:10:04.842 [TradeProcessor-10] INFO com.tradingapp.network.NetworkManager - Scheduled maintenance completed
+2024-10-17 21:10:05.201 [AnalyticsThread-7] INFO com.tradingapp.marketdata.MarketDataHandler - Heartbeat received from exchange
+2024-10-17 21:10:05.545 [CacheThread-5] INFO com.tradingapp.marketdata.MarketDataHandler - External API call successful
+2024-10-17 21:10:05.685	[AnalyticsThread-7] INFO com.tradingapp.cache.CacheManager - Cache initialized
+2024-10-17 21:10:06.071 [CacheThread-5] INFO com.tradingapp.auth.AuthenticationService - Order book updated
+2024-10-17 21:10:06.311 [OrderThread-1] ERR ... - Unexpected null value encountered
+2024-10-17 21:10:06.565	[MarketDataThread-3] INFO com.tradingapp.execution.ExecutionEngine - Historical data loaded
+2024-10-17 21:10:06.870	[main] WARN com.tradingapp.analytics.AnalyticsProcessor - Order quantity exceeds threshold
+2024-10-17 21:10:07.029	[RiskManager-11] DEBUG com.tradingapp.execution.ExecutionEngine - Establishing secure connection
+2024-10-17 21:10:07.321 [ExecThread-2] INFO com.tradingapp.analytics.AnalyticsProcessor - Market summary generated
+2024-10-17 21:10:07.621	[DBThread-9] INFO com.tradingapp.config.ConfigLoader - Configuration loaded successfully
+2024-10-17 21:10:08.113 [RiskManager-11] INFO com.tradingapp.analytics.AnalyticsProcessor - Trade settled successfully
+2024-10-17 21:10:08.590	[DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - Position updated in portfolio
+2024-10-17 21:10:08.601 [ExecThread-2] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Loading external libraries
+2024-10-17 21:10:08.746	[NetworkThread-8] DEBUG com.tradingapp.network.NetworkManager - Capturing screenshot for debugging
+2024-10-17 21:10:08.916 [main] WARN - Memory leak detected in module
+2024-10-17 21:10:09.075	[ReportGenerator-14] INFO com.tradingapp.order.OrderService - Trade limit reset
+2024-10-17 21:10:09.263	[OrderThread-1] INFO com.tradingapp.cache.CacheManager - User logged in successfully
+2024-10-17 21:10:09.594 [NotificationService-13] INFO com.tradingapp.marketdata.MarketDataHandler - Price feed subscribed
+2024-10-17 21:10:09.821	[NetworkThread-8] INFO com.tradingapp.auth.AuthenticationService - Balance updated
+2024-10-17 21:10:10.099	[AlertThread-6] ERROR com.tradingapp.order.OrderService - Failed to allocate buffer memory
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at com.tradingapp.order.OrderService.methodA(OrderService.java:56)
+2024-10-17 21:10:10.401	[NetworkThread-8] INFO - Balance updated
+2024-10-17 21:10:10.619 [DataIngestion-12] INFO com.tradingapp.order.OrderService - Price feed subscribed
+2024-10-17 21:10:10.888	[AnalyticsThread-7] WARN com.tradingapp.network.NetworkManager - Service latency above threshold
+2024-10-17 21:10:10.919 [BackupThread-15] INFO com.tradingapp.marketdata.MarketDataHandler - Configuration loaded successfully
+2024-10-17 21:10:10.993 [ReportGenerator-14] DEBUG com.tradingapp.utils.DatabaseConnector - Validating transaction integrity
+2024-10-17 21:10:11.072	[AuthThread-4] WARN com.tradingapp.marketdata.MarketDataHandler - Unrecognized message type
+2024-10-17 21:10:11.222	[NetworkThread-8] INFO com.tradingapp.order.OrderService - Configuration loaded successfully
+2024-10-17 21:10:11.545 [ReportGenerator-14] INFO com.tradingapp.auth.AuthenticationService - Heartbeat received from exchange
+2024-10-17 21:10:11.702 [AuthThread-4] INFO com.tradingapp.analytics.AnalyticsProcessor - Portfolio rebalanced
+2024-10-17 21:10:11.792	[RiskManager-11] DEBUG com.tradingapp.config.ConfigLoader - Handling socket connection
+2024-10-17 21:10:12.188	[DataIngestion-12] INFO com.tradingapp.order.OrderService - Heartbeat received from exchange
+2024-10-17 21:10:12.223	[DataIngestion-12] ERROR com.tradingapp.marketdata.MarketDataHandler - Failed to parse configuration
+2024-10-17 21:10:12.636 [ExecThread-2] INFO com.tradingapp.alert.AlertManager - Exchange rate updated
+2024-10-17 21:10:13.108	[main] DEBUG com.tradingapp.config.ConfigLoader - Parsing configuration file
+2024-10-17 21:10:13.224	[AuthThread-4] INFO com.tradingapp.marketdata.MarketDataHandler - User logged in successfully
+2024-10-17 21:10:13.226	[AlertThread-6] ERROR com.tradingapp.network.NetworkManager - NullPointerException in OrderService
+2024-10-17 21:10:13.466	[CacheThread-5] INFO com.tradingapp.cache.CacheManager - User notification sent
+2024-10-17 21:10:13.541	[BackupThread-15] INFO com.tradingapp.utils.DatabaseConnector - Trade limit reset
+2024-10-17 21:10:13.711 [ExecThread-2] DEBUG com.tradingapp.auth.AuthenticationService - Message queue size: 42
+2024-10-17 21:10:13.967 [AuthThread-4] INFO com.tradingapp.network.NetworkManager - Asset allocation adjusted
+2024-10-17 21:10:14.406	[NotificationService-13] INFO com.tradingapp.network.NetworkManager - Trade settled successfully
+2024-10-17 21:10:14.528 [TradeProcessor-10] INFO com.tradingapp.cache.CacheManager - Portfolio rebalanced
+2024-10-17 21:10:14.938	[OrderThread-1] DEBUG com.tradingapp.marketdata.MarketDataHandler - Debugging authentication flow
+2024-10-17 21:10:15.287	[DBThread-9] INFO com.tradingapp.auth.AuthenticationService - User notification sent
+2024-10-17 21:10:15.678 [BackupThread-15] WARN com.tradingapp.config.ConfigLoader - Disk space running low
+2024-10-17 21:10:16.116	[TradeProcessor-10] DEBUG com.tradingapp.auth.AuthenticationService - Capturing screenshot for debugging
+2024-10-17 21:10:16.433 [MarketDataThread-3] WARN com.tradingapp.network.NetworkManager - Order quantity exceeds threshold
+2024-10-17 21:10:16.610 [main] WARN com.tradingapp.order.OrderService - Partial fill received
+2024-10-17 21:10:17.074 [DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - Order book updated
+2024-10-17 21:10:17.520 [AuthThread-4] INFO com.tradingapp.utils.DatabaseConnector - Trade confirmation received
+2024-10-17 21:10:17.767	[TradeProcessor-10] INFO com.tradingapp.marketdata.MarketDataHandler - Order status synchronized
+2024-10-17 21:10:18.139	[MarketDataThread-3] WARN com.tradingapp.execution.ExecutionEngine - Data inconsistency found
+2024-10-17 21:10:18.433 [AuthThread-4] INFO com.tradingapp.cache.CacheManager - User logged in successfully
+2024-10-17 21:10:18.908 [RiskManager-11] ERR com.tradingapp.alert.AlertManager - Error in authentication middleware
+	at com.tradingapp.alert.AlertManager.methodB(AlertManager.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+2024-10-17 21:10:18.954	[AnalyticsThread-7] WARN com.tradingapp.order.OrderService - Unexpected user input received
+2024-10-17 21:10:19.082 [ReportGenerator-14] INFO com.tradingapp.auth.AuthenticationService - Risk parameters evaluated
+2024-10-17 21:10:19.341 [NotificationService-13] INFO com.tradingapp.auth.AuthenticationService - Configuration loaded successfully
+2024-10-17 21:10:19.692	[ReportGenerator-14] INFO com.tradingapp.auth.AuthenticationService - External API call successful
+2024-10-17 21:10:20.075	[AlertThread-6] WARN com.tradingapp.network.NetworkManager - Insufficient permissions for operation
+2024-10-17 21:10:20.314 [NotificationService-13] INFO com.tradingapp.order.OrderService - Compliance check passed
+2024-10-17 21:10:20.592	[MarketDataThread-3] DEBUG com.tradingapp.marketdata.MarketDataHandler - Lock acquired on resource
+2024-10-17 21:10:20.674 [main] WARN com.tradingapp.alert.AlertManager - Connection timeout with broker
+2024-10-17 21:10:20.854 [main] INFO com.tradingapp.network.NetworkManager - Trade confirmation received
+2024-10-17 21:10:20.925 [CacheThread-5] DEBUG com.tradingapp.config.ConfigLoader - Executing unit tests
+2024-10-17 21:10:20.985	[ExecThread-2] INFO com.tradingapp.analytics.AnalyticsProcessor - Order received for execution
+2024-10-17 21:10:21.452 [ReportGenerator-14] INFO com.tradingapp.config.ConfigLoader - Configuration loaded successfully
+2024-10-17 21:10:21.768 [CacheThread-5] WARN com.tradingapp.config.ConfigLoader - Potential deadlock detected
+2024-10-17 21:10:22.222 [main] DEBUG com.tradingapp.order.OrderService - Thread started
+2024-10-17 21:10:22.498	[MarketDataThread-3] DEBUG com.tradingapp.marketdata.MarketDataHandler - Dispatching event handler
+2024-10-17 21:10:22.937	[DataIngestion-12] INFO com.tradingapp.config.ConfigLoader - External API call successful
+2024-10-17 21:10:23.367	[RiskManager-11] WARN com.tradingapp.utils.DatabaseConnector - High memory usage
+2024-10-17 21:10:23.834 [NetworkThread-8] ERR ... - Error during data migration
+	at com.tradingapp.alert.AlertManager.methodA(AlertManager.java:56)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2024-10-17 21:10:23.971	[RiskManager-11] INFO - Exchange rate updated
+2024-10-17 21:10:24.433	[AlertThread-6] ERR com.tradingapp.alert.AlertManager - Failed to log user activity
+2024-10-17 21:10:24.480	[TradeProcessor-10] WARN com.tradingapp.execution.ExecutionEngine - Partial fill received
+2024-10-17 21:10:24.653	[AnalyticsThread-7] INFO - Trade confirmation received
+2024-10-17 21:10:24.996 [AlertThread-6] WARN com.tradingapp.utils.DatabaseConnector - Configuration parameter missing, using default
+2024-10-17 21:10:25.049 [AuthThread-4] DEBUG com.tradingapp.cache.CacheManager - Validating transaction integrity
+2024-10-17 21:10:25.052 [RiskManager-11] WARN com.tradingapp.cache.CacheManager - Memory leak detected in module
+2024-10-17 21:10:25.085 [NotificationService-13] INFO - Trade limit reset
+2024-10-17 21:10:25.460 [OrderThread-1] DEBUG com.tradingapp.config.ConfigLoader - Analyzing trade patterns
+2024-10-17 21:10:25.545 [ReportGenerator-14] DEBUG com.tradingapp.auth.AuthenticationService - Serializing response payload
+2024-10-17 21:10:25.735 [BackupThread-15] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Cache refreshed
+2024-10-17 21:10:26.020 [OrderThread-1] INFO com.tradingapp.execution.ExecutionEngine - Risk parameters evaluated
+2024-10-17 21:10:26.251	[CacheThread-5] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Fetching market data snapshot
+2024-10-17 21:10:26.525 [AuthThread-4] WARN com.tradingapp.cache.CacheManager - Resource utilization exceeds limits
+2024-10-17 21:10:26.914	[AnalyticsThread-7] INFO com.tradingapp.network.NetworkManager - User preferences saved
+2024-10-17 21:10:26.930	[NetworkThread-8] INFO com.tradingapp.config.ConfigLoader - Exchange rate updated
+2024-10-17 21:10:27.014	[AuthThread-4] INFO com.tradingapp.execution.ExecutionEngine - Market summary generated
+2024-10-17 21:10:27.349	[NotificationService-13] INFO com.tradingapp.execution.ExecutionEngine - Position updated in portfolio
+2024-10-17 21:10:27.438	[NotificationService-13] DEBUG com.tradingapp.execution.ExecutionEngine - Handling socket connection
+2024-10-17 21:10:27.854 [TradeProcessor-10] DEBUG com.tradingapp.network.NetworkManager - Establishing secure connection
+2024-10-17 21:10:28.098	[main] ERROR com.tradingapp.auth.AuthenticationService - Corrupted log file detected
+	at com.tradingapp.auth.AuthenticationService.methodB(AuthenticationService.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-10-17 21:10:28.382 [ExecThread-2] ERR com.tradingapp.alert.AlertManager - Failed to retrieve asset details
+2024-10-17 21:10:28.724	[main] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Updating UI components
+2024-10-17 21:10:29.189 [ReportGenerator-14] WARN com.tradingapp.config.ConfigLoader - Potential deadlock detected
+2024-10-17 21:10:29.611 [main] INFO com.tradingapp.config.ConfigLoader - Position updated in portfolio
+2024-10-17 21:10:29.969 [RiskManager-11] DEBUG com.tradingapp.utils.DatabaseConnector - Session token generated
+2024-10-17 21:10:30.331	[NotificationService-13] WARN com.tradingapp.utils.DatabaseConnector - Unexpected user input received
+2024-10-17 21:10:30.463	[AlertThread-6] INFO com.tradingapp.marketdata.MarketDataHandler - Trade confirmation received
+2024-10-17 21:10:30.621 [BackupThread-15] WARN com.tradingapp.marketdata.MarketDataHandler - High memory usage
+2024-10-17 21:10:31.014	[DataIngestion-12] ERROR com.tradingapp.alert.AlertManager - Failed to initialize cache
+2024-10-17 21:10:31.100	[AnalyticsThread-7] DEBUG com.tradingapp.utils.DatabaseConnector - Calculating trade metrics
+2024-10-17 21:10:31.255	[DBThread-9] DEBUG com.tradingapp.cache.CacheManager - Optimizing query performance
+2024-10-17 21:10:31.713	[ExecThread-2] INFO com.tradingapp.execution.ExecutionEngine - Asset allocation adjusted
+2024-10-17 21:10:32.104 [DBThread-9] DEBUG com.tradingapp.alert.AlertManager - Updating UI components
+2024-10-17 21:10:32.500 [NetworkThread-8] DEBUG com.tradingapp.execution.ExecutionEngine - Encrypting sensitive data
+2024-10-17 21:10:32.746	[CacheThread-5] INFO com.tradingapp.order.OrderService - Order book updated
+2024-10-17 21:10:33.203	[NotificationService-13] DEBUG com.tradingapp.auth.AuthenticationService - Executing unit tests
+2024-10-17 21:10:33.356	[AnalyticsThread-7] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Fetching market data snapshot
+2024-10-17 21:10:33.690	[NotificationService-13] DEBUG com.tradingapp.auth.AuthenticationService - Fetching market data snapshot
+2024-10-17 21:10:33.712	[OrderThread-1] WARN com.tradingapp.execution.ExecutionEngine - Insufficient permissions for operation
+2024-10-17 21:10:34.119	[RiskManager-11] INFO com.tradingapp.execution.ExecutionEngine - External API call successful
+2024-10-17 21:10:34.255 [BackupThread-15] WARN com.tradingapp.config.ConfigLoader - Latency spike detected
+2024-10-17 21:10:34.658	[BackupThread-15] INFO - User preferences saved
+2024-10-17 21:10:34.659 [DBThread-9] ERR ... - Error in trade execution module
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.execution.ExecutionEngine.methodB(ExecutionEngine.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2024-10-17 21:10:35.081	[AnalyticsThread-7] INFO com.tradingapp.utils.DatabaseConnector - External API call successful
+2024-10-17 21:10:35.284	[OrderThread-1] INFO com.tradingapp.execution.ExecutionEngine - Trade limit reset
+2024-10-17 21:10:35.388	[CacheThread-5] INFO com.tradingapp.network.NetworkManager - User logged in successfully
+2024-10-17 21:10:35.400	[DBThread-9] WARN com.tradingapp.analytics.AnalyticsProcessor - Partial fill received
+2024-10-17 21:10:35.632	[NotificationService-13] WARN com.tradingapp.cache.CacheManager - Configuration parameter missing, using default
+2024-10-17 21:10:35.986	[NotificationService-13] INFO com.tradingapp.execution.ExecutionEngine - Configuration loaded successfully
+2024-10-17 21:10:36.053 [BackupThread-15] INFO com.tradingapp.config.ConfigLoader - Position updated in portfolio
+2024-10-17 21:10:36.523	[AnalyticsThread-7] DEBUG com.tradingapp.auth.AuthenticationService - Executing background job
+2024-10-17 21:10:36.918	[MarketDataThread-3] ERROR com.tradingapp.marketdata.MarketDataHandler - Memory allocation failed
+2024-10-17 21:10:36.959	[MarketDataThread-3] DEBUG com.tradingapp.utils.DatabaseConnector - Resolving DNS query
+2024-10-17 21:10:37.192	[NotificationService-13] WARN com.tradingapp.cache.CacheManager - Configuration parameter missing, using default
+2024-10-17 21:10:37.456 [AnalyticsThread-7] DEBUG com.tradingapp.cache.CacheManager - Loading user preferences
+2024-10-17 21:10:37.882	[RiskManager-11] DEBUG com.tradingapp.utils.DatabaseConnector - Tracking user session
+2024-10-17 21:10:37.981	[main] DEBUG com.tradingapp.execution.ExecutionEngine - Memory usage checked
+2024-10-17 21:10:38.224	[MarketDataThread-3] INFO com.tradingapp.order.OrderService - Exchange rate updated
+2024-10-17 21:10:38.544	[NetworkThread-8] INFO com.tradingapp.cache.CacheManager - Connection established with exchange
+2024-10-17 21:10:38.818	[NotificationService-13] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Calculating trade metrics
+2024-10-17 21:10:39.058 [ReportGenerator-14] INFO com.tradingapp.alert.AlertManager - Connection established with exchange
+2024-10-17 21:10:39.476	[BackupThread-15] WARN com.tradingapp.cache.CacheManager - Resource utilization exceeds limits
+2024-10-17 21:10:39.903	[AlertThread-6] WARN com.tradingapp.order.OrderService - Failed to acquire necessary locks
+2024-10-17 21:10:40.153 [ExecThread-2] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Monitoring system health
+2024-10-17 21:10:40.444 [OrderThread-1] INFO com.tradingapp.config.ConfigLoader - New trading session started
+2024-10-17 21:10:40.865 [CacheThread-5] INFO com.tradingapp.marketdata.MarketDataHandler - Market data update processed
+2024-10-17 21:10:40.897	[AnalyticsThread-7] DEBUG com.tradingapp.order.OrderService - Updating cache entries
+2024-10-17 21:10:41.061	[RiskManager-11] DEBUG com.tradingapp.execution.ExecutionEngine - Tracking user session
+2024-10-17 21:10:41.302 [AuthThread-4] INFO com.tradingapp.marketdata.MarketDataHandler - Portfolio rebalanced
+2024-10-17 21:10:41.366 [AnalyticsThread-7] WARN com.tradingapp.utils.DatabaseConnector - Failed to write to log file
+2024-10-17 21:10:41.586 [MarketDataThread-3] ERROR com.tradingapp.network.NetworkManager - Failed to acquire database lock
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at com.tradingapp.network.NetworkManager.methodA(NetworkManager.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at com.tradingapp.network.NetworkManager.methodB(NetworkManager.java:78)
+2024-10-17 21:10:41.695 [NotificationService-13] INFO com.tradingapp.analytics.AnalyticsProcessor - Cache initialized
+2024-10-17 21:10:42.094	[NotificationService-13] DEBUG com.tradingapp.utils.DatabaseConnector - Thread synchronization complete
+2024-10-17 21:10:42.499 [AuthThread-4] INFO com.tradingapp.order.OrderService - User logged in successfully
+2024-10-17 21:10:42.620	[OrderThread-1] DEBUG com.tradingapp.marketdata.MarketDataHandler - Message queue size: 42
+2024-10-17 21:10:42.655	[ReportGenerator-14] WARN com.tradingapp.utils.DatabaseConnector - Unrecognized message type
+2024-10-17 21:10:42.695	[main] INFO com.tradingapp.auth.AuthenticationService - External API call successful
+2024-10-17 21:10:42.996 [ReportGenerator-14] DEBUG com.tradingapp.cache.CacheManager - Session token generated
+2024-10-17 21:10:43.157 [DataIngestion-12] WARN com.tradingapp.network.NetworkManager - User session about to expire
+2024-10-17 21:10:43.534 [AnalyticsThread-7] INFO com.tradingapp.utils.DatabaseConnector - Balance updated
+2024-10-17 21:10:44.001 [BackupThread-15] WARN com.tradingapp.marketdata.MarketDataHandler - Unusual trading volume observed
+2024-10-17 21:10:44.456	[NotificationService-13] DEBUG com.tradingapp.execution.ExecutionEngine - Managing thread pool
+2024-10-17 21:10:44.535	[TradeProcessor-10] ERR com.tradingapp.analytics.AnalyticsProcessor - Failed to restart service
+2024-10-17 21:10:44.955	[NetworkThread-8] DEBUG com.tradingapp.utils.DatabaseConnector - Processing trade execution
+2024-10-17 21:10:45.061 [TradeProcessor-10] DEBUG com.tradingapp.network.NetworkManager - Updating cache entries
+2024-10-17 21:10:45.188 [ExecThread-2] DEBUG com.tradingapp.config.ConfigLoader - Capturing screenshot for debugging
+2024-10-17 21:10:45.320	[TradeProcessor-10] INFO com.tradingapp.alert.AlertManager - Historical data loaded
+2024-10-17 21:10:45.402 [DBThread-9] WARN com.tradingapp.analytics.AnalyticsProcessor - Unexpected user input received
+2024-10-17 21:10:45.840	[NotificationService-13] DEBUG com.tradingapp.alert.AlertManager - Memory usage checked
+2024-10-17 21:10:45.902	[DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - Trade confirmation received
+2024-10-17 21:10:46.155	[RiskManager-11] INFO com.tradingapp.marketdata.MarketDataHandler - Heartbeat received from exchange
+2024-10-17 21:10:46.266 [ReportGenerator-14] WARN com.tradingapp.order.OrderService - Disk space running low
+2024-10-17 21:10:46.337 [OrderThread-1] ERROR com.tradingapp.marketdata.MarketDataHandler - Failed to serialize object
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.marketdata.MarketDataHandler.methodB(MarketDataHandler.java:78)
+	at com.tradingapp.marketdata.MarketDataHandler.methodA(MarketDataHandler.java:56)
+2024-10-17 21:10:46.559 [MarketDataThread-3] DEBUG com.tradingapp.order.OrderService - Encrypting sensitive data
+2024-10-17 21:10:46.669	[MarketDataThread-3] DEBUG com.tradingapp.utils.DatabaseConnector - Latency measurement taken
+2024-10-17 21:10:46.994	[AuthThread-4] INFO com.tradingapp.network.NetworkManager - Portfolio rebalanced
+2024-10-17 21:10:47.200	[CacheThread-5] WARN com.tradingapp.cache.CacheManager - Service latency above threshold
+2024-10-17 21:10:47.295 [DBThread-9] DEBUG com.tradingapp.utils.DatabaseConnector - Dispatching event handler
+2024-10-17 21:10:47.768 [AuthThread-4] WARN com.tradingapp.marketdata.MarketDataHandler - Invalid trade signal received
+2024-10-17 21:10:48.188 [DBThread-9] WARN com.tradingapp.order.OrderService - Connection timeout with broker
+2024-10-17 21:10:48.477	[AnalyticsThread-7] ERROR com.tradingapp.utils.DatabaseConnector - Corrupted log file detected
+2024-10-17 21:10:48.935 [RiskManager-11] WARN com.tradingapp.config.ConfigLoader - Failed to acquire necessary locks
+2024-10-17 21:10:48.943 [AlertThread-6] INFO com.tradingapp.cache.CacheManager - Risk parameters evaluated
+2024-10-17 21:10:49.136 [ExecThread-2] DEBUG com.tradingapp.execution.ExecutionEngine - Compressing log data
+2024-10-17 21:10:49.551	[BackupThread-15] DEBUG com.tradingapp.auth.AuthenticationService - Monitoring system health
+2024-10-17 21:10:49.818	[CacheThread-5] INFO com.tradingapp.utils.DatabaseConnector - Connection established with exchange
+2024-10-17 21:10:50.232 [TradeProcessor-10] INFO com.tradingapp.marketdata.MarketDataHandler - Order book updated
+2024-10-17 21:10:50.295 [DataIngestion-12] INFO com.tradingapp.config.ConfigLoader - Market summary generated
+2024-10-17 21:10:50.704 [ExecThread-2] DEBUG com.tradingapp.utils.DatabaseConnector - Encrypting sensitive data
+2024-10-17 21:10:51.185 [DBThread-9] INFO com.tradingapp.utils.DatabaseConnector - Connection established with exchange
+2024-10-17 21:10:51.649	[TradeProcessor-10] INFO com.tradingapp.auth.AuthenticationService - Trade history archived
+2024-10-17 21:10:51.695 [NotificationService-13] DEBUG com.tradingapp.execution.ExecutionEngine - Garbage collection initiated
+2024-10-17 21:10:52.064	[AlertThread-6] DEBUG - Initializing module dependencies
+2024-10-17 21:10:52.468 [main] INFO com.tradingapp.cache.CacheManager - Heartbeat received from exchange
+2024-10-17 21:10:52.708	[AlertThread-6] DEBUG com.tradingapp.config.ConfigLoader - Deserializing request payload
+2024-10-17 21:10:52.927	[DataIngestion-12] ERROR com.tradingapp.auth.AuthenticationService - Failed to acquire database lock
+2024-10-17 21:10:53.282	[NetworkThread-8] DEBUG com.tradingapp.utils.DatabaseConnector - Encrypting sensitive data
+2024-10-17 21:10:53.417	[DBThread-9] WARN com.tradingapp.analytics.AnalyticsProcessor - Unrecognized message type
+2024-10-17 21:10:53.510	[ExecThread-2] DEBUG com.tradingapp.config.ConfigLoader - Cache refreshed
+2024-10-17 21:10:53.962 [ReportGenerator-14] DEBUG - Parsing configuration file
+2024-10-17 21:10:54.181	[DataIngestion-12] INFO com.tradingapp.auth.AuthenticationService - Market data update processed
+2024-10-17 21:10:54.519 [NotificationService-13] DEBUG com.tradingapp.alert.AlertManager - Session token generated
+2024-10-17 21:10:54.783	[CacheThread-5] INFO com.tradingapp.marketdata.MarketDataHandler - Configuration loaded successfully
+2024-10-17 21:10:54.957	[DBThread-9] WARN com.tradingapp.auth.AuthenticationService - Data inconsistency found
+2024-10-17 21:10:55.374 [ExecThread-2] DEBUG com.tradingapp.cache.CacheManager - Monitoring system health
+2024-10-17 21:10:55.487	[TradeProcessor-10] DEBUG com.tradingapp.order.OrderService - Cache refreshed
+2024-10-17 21:10:55.894 [DataIngestion-12] DEBUG com.tradingapp.network.NetworkManager - Profiling memory usage
+2024-10-17 21:10:56.307	[TradeProcessor-10] DEBUG com.tradingapp.order.OrderService - Validating input parameters
+2024-10-17 21:10:56.480	[AlertThread-6] WARN - Latency spike detected
+2024-10-17 21:10:56.525 [BackupThread-15] ERROR com.tradingapp.marketdata.MarketDataHandler - Error initializing network interface
+2024-10-17 21:10:56.675	[DBThread-9] ERR ... - Error loading external resource
+2024-10-17 21:10:56.982	[DataIngestion-12] INFO com.tradingapp.analytics.AnalyticsProcessor - User notification sent
+2024-10-17 21:10:57.350	[NetworkThread-8] DEBUG com.tradingapp.execution.ExecutionEngine - Fetching market data snapshot
+2024-10-17 21:10:57.766	[main] DEBUG com.tradingapp.auth.AuthenticationService - Optimizing query performance
+2024-10-17 21:10:58.080	[DBThread-9] WARN com.tradingapp.cache.CacheManager - User session about to expire
+2024-10-17 21:10:58.422 [MarketDataThread-3] ERROR com.tradingapp.execution.ExecutionEngine - Corrupted log file detected
+2024-10-17 21:10:58.905 [DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - Market data update processed
+2024-10-17 21:10:58.972	[BackupThread-15] DEBUG com.tradingapp.auth.AuthenticationService - Validating input parameters
+2024-10-17 21:10:58.991 [MarketDataThread-3] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Analyzing trade patterns
+2024-10-17 21:10:59.433 [AnalyticsThread-7] DEBUG com.tradingapp.network.NetworkManager - Processing batch job
+2024-10-17 21:10:59.779 [AuthThread-4] INFO com.tradingapp.auth.AuthenticationService - User notification sent
+2024-10-17 21:11:00.119 [ExecThread-2] DEBUG com.tradingapp.execution.ExecutionEngine - Capturing screenshot for debugging
+2024-10-17 21:11:00.130 [main] INFO com.tradingapp.analytics.AnalyticsProcessor - Trade limit reset
+2024-10-17 21:11:00.282 [CacheThread-5] DEBUG com.tradingapp.marketdata.MarketDataHandler - Loading user preferences
+2024-10-17 21:11:00.375 [DataIngestion-12] DEBUG com.tradingapp.alert.AlertManager - Decompressing data stream
+2024-10-17 21:11:00.573 [AlertThread-6] WARN com.tradingapp.auth.AuthenticationService - Disk space running low
+2024-10-17 21:11:00.691	[AlertThread-6] INFO com.tradingapp.cache.CacheManager - Configuration loaded successfully
+2024-10-17 21:11:01.007 [AnalyticsThread-7] ERROR com.tradingapp.utils.DatabaseConnector - Order rejection from exchange
+2024-10-17 21:11:01.162 [CacheThread-5] ERROR com.tradingapp.cache.CacheManager - Unhandled exception in thread
+2024-10-17 21:11:01.612 [CacheThread-5] WARN - Failed to send heartbeat
+2024-10-17 21:11:01.991	[DataIngestion-12] ERROR com.tradingapp.analytics.AnalyticsProcessor - Failed to acquire database lock
+2024-10-17 21:11:02.165	[AlertThread-6] INFO com.tradingapp.order.OrderService - Trade history archived
+2024-10-17 21:11:02.455 [MarketDataThread-3] DEBUG com.tradingapp.cache.CacheManager - Loading external libraries
+2024-10-17 21:11:02.899 [NetworkThread-8] INFO com.tradingapp.analytics.AnalyticsProcessor - User notification sent
+2024-10-17 21:11:03.210	[BackupThread-15] WARN com.tradingapp.network.NetworkManager - Memory leak detected in module
+2024-10-17 21:11:03.660 [AuthThread-4] DEBUG com.tradingapp.cache.CacheManager - Fetching market data snapshot
+2024-10-17 21:11:03.721	[RiskManager-11] INFO com.tradingapp.config.ConfigLoader - User notification sent
+2024-10-17 21:11:03.950	[DataIngestion-12] DEBUG com.tradingapp.config.ConfigLoader - Updating UI components
+2024-10-17 21:11:04.361	[main] WARN com.tradingapp.analytics.AnalyticsProcessor - Unrecognized message type
+2024-10-17 21:11:04.844 [TradeProcessor-10] INFO com.tradingapp.utils.DatabaseConnector - Portfolio rebalanced
+2024-10-17 21:11:04.924 [TradeProcessor-10] DEBUG com.tradingapp.auth.AuthenticationService - Monitoring system health
+2024-10-17 21:11:04.998	[RiskManager-11] ERROR com.tradingapp.cache.CacheManager - Data corruption detected
+2024-10-17 21:11:05.491 [ReportGenerator-14] DEBUG com.tradingapp.order.OrderService - Analyzing trade patterns
+2024-10-17 21:11:05.980	[OrderThread-1] DEBUG com.tradingapp.marketdata.MarketDataHandler - Loading external libraries
+2024-10-17 21:11:06.134 [DBThread-9] INFO com.tradingapp.network.NetworkManager - Market data update processed
+2024-10-17 21:11:06.518	[AlertThread-6] DEBUG com.tradingapp.execution.ExecutionEngine - Monitoring system health
+2024-10-17 21:11:06.993 [NotificationService-13] WARN com.tradingapp.utils.DatabaseConnector - Failed to acquire necessary locks
+2024-10-17 21:11:07.265	[AnalyticsThread-7] DEBUG com.tradingapp.execution.ExecutionEngine - Optimizing query performance
+2024-10-17 21:11:07.284	[NetworkThread-8] INFO com.tradingapp.analytics.AnalyticsProcessor - Scheduled maintenance completed
+2024-10-17 21:11:07.717 [MarketDataThread-3] DEBUG com.tradingapp.utils.DatabaseConnector - Serializing response payload
+2024-10-17 21:11:07.822	[BackupThread-15] WARN com.tradingapp.order.OrderService - Connection timeout with broker
+2024-10-17 21:11:08.279	[MarketDataThread-3] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Processing batch job
+2024-10-17 21:11:08.662 [OrderThread-1] INFO com.tradingapp.auth.AuthenticationService - Risk parameters evaluated
+2024-10-17 21:11:09.117	[TradeProcessor-10] ERR com.tradingapp.auth.AuthenticationService - Error writing to database
+2024-10-17 21:11:09.582 [NotificationService-13] INFO com.tradingapp.utils.DatabaseConnector - Margin requirements updated
+2024-10-17 21:11:09.984 [CacheThread-5] INFO com.tradingapp.alert.AlertManager - External API call successful
+2024-10-17 21:11:10.228 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Market data update processed
+2024-10-17 21:11:10.379 [NotificationService-13] DEBUG com.tradingapp.cache.CacheManager - Configuring network settings
+2024-10-17 21:11:10.839 [AnalyticsThread-7] DEBUG com.tradingapp.execution.ExecutionEngine - Updating cache entries
+2024-10-17 21:11:11.314 [main] DEBUG com.tradingapp.execution.ExecutionEngine - Validating transaction integrity
+2024-10-17 21:11:11.790	[OrderThread-1] INFO com.tradingapp.order.OrderService - New trading session started
+2024-10-17 21:11:11.958 [CacheThread-5] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Synchronizing database state
+2024-10-17 21:11:12.223 [NotificationService-13] WARN com.tradingapp.utils.DatabaseConnector - Memory leak detected in module
+2024-10-17 21:11:12.587	[ReportGenerator-14] DEBUG com.tradingapp.utils.DatabaseConnector - Tracking user session
+2024-10-17 21:11:13.025 [ReportGenerator-14] INFO com.tradingapp.network.NetworkManager - Cache initialized
+2024-10-17 21:11:13.168	[CacheThread-5] WARN com.tradingapp.marketdata.MarketDataHandler - Slow response from database
+2024-10-17 21:11:13.449	[BackupThread-15] DEBUG com.tradingapp.alert.AlertManager - Setting up test environment
+2024-10-17 21:11:13.574	[ExecThread-2] INFO com.tradingapp.config.ConfigLoader - Liquidity provision optimized
+2024-10-17 21:11:13.693	[MarketDataThread-3] ERROR com.tradingapp.analytics.AnalyticsProcessor - Unable to update balance
+2024-10-17 21:11:13.904	[AuthThread-4] DEBUG com.tradingapp.auth.AuthenticationService - Lock acquired on resource
+2024-10-17 21:11:14.244	[TradeProcessor-10] DEBUG com.tradingapp.alert.AlertManager - Aggregating metrics data
+2024-10-17 21:11:14.617	[MarketDataThread-3] INFO com.tradingapp.alert.AlertManager - Price feed subscribed
+2024-10-17 21:11:15.040	[AnalyticsThread-7] DEBUG com.tradingapp.execution.ExecutionEngine - Retrying failed operation
+2024-10-17 21:11:15.382 [DataIngestion-12] DEBUG com.tradingapp.config.ConfigLoader - Lock acquired on resource
+2024-10-17 21:11:15.618 [main] INFO com.tradingapp.execution.ExecutionEngine - Exchange rate updated
+2024-10-17 21:11:15.911	[main] INFO com.tradingapp.order.OrderService - Compliance check passed
+2024-10-17 21:11:16.322 [AuthThread-4] INFO com.tradingapp.analytics.AnalyticsProcessor - Balance updated
+2024-10-17 21:11:16.679	[CacheThread-5] ERROR com.tradingapp.config.ConfigLoader - Order rejection from exchange
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.config.ConfigLoader.methodB(ConfigLoader.java:78)
+	at com.tradingapp.config.ConfigLoader.methodA(ConfigLoader.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2024-10-17 21:11:17.058 [MarketDataThread-3] ERR com.tradingapp.utils.DatabaseConnector - Failed to release resources
+2024-10-17 21:11:17.329 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Portfolio rebalanced
+2024-10-17 21:11:17.409	[ExecThread-2] WARN com.tradingapp.network.NetworkManager - Failed to send heartbeat
+2024-10-17 21:11:17.771	[TradeProcessor-10] INFO com.tradingapp.execution.ExecutionEngine - Order received for execution
+2024-10-17 21:11:18.010 [DataIngestion-12] INFO com.tradingapp.network.NetworkManager - Balance updated
+2024-10-17 21:11:18.335 [MarketDataThread-3] DEBUG com.tradingapp.marketdata.MarketDataHandler - Loading user preferences
+2024-10-17 21:11:18.612 [AlertThread-6] INFO com.tradingapp.config.ConfigLoader - Configuration loaded successfully
+2024-10-17 21:11:18.814 [OrderThread-1] INFO com.tradingapp.utils.DatabaseConnector - User preferences saved
+2024-10-17 21:11:19.218	[NotificationService-13] INFO com.tradingapp.config.ConfigLoader - Trade settled successfully
+2024-10-17 21:11:19.577	[NetworkThread-8] INFO com.tradingapp.alert.AlertManager - Exchange rate updated
+2024-10-17 21:11:20.041	[NetworkThread-8] WARN com.tradingapp.alert.AlertManager - Unsupported protocol version
+2024-10-17 21:11:20.447 [RiskManager-11] DEBUG com.tradingapp.marketdata.MarketDataHandler - Executing background job
+2024-10-17 21:11:20.662 [MarketDataThread-3] WARN com.tradingapp.order.OrderService - Retrying connection to exchange
+2024-10-17 21:11:20.685	[main] INFO com.tradingapp.cache.CacheManager - Connection established with exchange
+2024-10-17 21:11:21.003	[NotificationService-13] WARN com.tradingapp.network.NetworkManager - Configuration parameter missing, using default
+2024-10-17 21:11:21.326 [OrderThread-1] INFO com.tradingapp.cache.CacheManager - Historical data loaded
+2024-10-17 21:11:21.796 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Margin requirements updated
+2024-10-17 21:11:22.288 [BackupThread-15] INFO com.tradingapp.utils.DatabaseConnector - Market summary generated
+2024-10-17 21:11:22.638 [MarketDataThread-3] INFO com.tradingapp.analytics.AnalyticsProcessor - Price feed subscribed
+2024-10-17 21:11:23.125 [NetworkThread-8] DEBUG com.tradingapp.utils.DatabaseConnector - Parsing configuration file
+2024-10-17 21:11:23.297 [TradeProcessor-10] INFO com.tradingapp.execution.ExecutionEngine - New trading session started
+2024-10-17 21:11:23.413	[AnalyticsThread-7] INFO com.tradingapp.alert.AlertManager - Connection established with exchange
+2024-10-17 21:11:23.911	[BackupThread-15] WARN com.tradingapp.marketdata.MarketDataHandler - User session about to expire
+2024-10-17 21:11:24.402	[AuthThread-4] INFO com.tradingapp.order.OrderService - Market summary generated
+2024-10-17 21:11:24.897 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Compliance check passed
+2024-10-17 21:11:25.391 [BackupThread-15] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Compressing log data
+2024-10-17 21:11:25.723 [RiskManager-11] INFO com.tradingapp.alert.AlertManager - Market summary generated
+2024-10-17 21:11:25.936 [AuthThread-4] INFO com.tradingapp.order.OrderService - Heartbeat received from exchange
+2024-10-17 21:11:26.279	[main] DEBUG com.tradingapp.utils.DatabaseConnector - Garbage collection initiated
+2024-10-17 21:11:26.661	[RiskManager-11] WARN com.tradingapp.auth.AuthenticationService - Retrying connection to exchange
+2024-10-17 21:11:26.806	[OrderThread-1] DEBUG - Deserializing market data
+2024-10-17 21:11:27.248	[main] DEBUG com.tradingapp.execution.ExecutionEngine - Handling socket connection
+2024-10-17 21:11:27.259 [main] DEBUG - Calculating trade metrics
+2024-10-17 21:11:27.444 [NetworkThread-8] INFO com.tradingapp.marketdata.MarketDataHandler - Order book updated
+2024-10-17 21:11:27.451	[CacheThread-5] DEBUG com.tradingapp.marketdata.MarketDataHandler - Rotating log files
+2024-10-17 21:11:27.575	[TradeProcessor-10] DEBUG com.tradingapp.marketdata.MarketDataHandler - Session token generated
+2024-10-17 21:11:27.823	[MarketDataThread-3] ERR ... - Failed to initialize module
+2024-10-17 21:11:28.212	[DBThread-9] DEBUG com.tradingapp.config.ConfigLoader - Debugging authentication flow
+2024-10-17 21:11:28.350 [NotificationService-13] ERROR com.tradingapp.config.ConfigLoader - Order rejection from exchange
+2024-10-17 21:11:28.462	[TradeProcessor-10] INFO com.tradingapp.network.NetworkManager - Order book updated
+2024-10-17 21:11:28.669 [ExecThread-2] INFO com.tradingapp.execution.ExecutionEngine - Market data update processed
+2024-10-17 21:11:28.992 [MarketDataThread-3] WARN com.tradingapp.config.ConfigLoader - Service latency above threshold
+2024-10-17 21:11:29.028 [NetworkThread-8] WARN com.tradingapp.marketdata.MarketDataHandler - Configuration parameter missing, using default
+2024-10-17 21:11:29.339	[MarketDataThread-3] WARN com.tradingapp.execution.ExecutionEngine - Connection timeout with broker
+2024-10-17 21:11:29.416 [NotificationService-13] WARN com.tradingapp.analytics.AnalyticsProcessor - Price deviation detected
+2024-10-17 21:11:29.650 [NotificationService-13] ERROR com.tradingapp.cache.CacheManager - Unhandled exception in thread
+2024-10-17 21:11:30.025	[ReportGenerator-14] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Deserializing market data
+2024-10-17 21:11:30.145 [ReportGenerator-14] INFO com.tradingapp.analytics.AnalyticsProcessor - External API call successful
+2024-10-17 21:11:30.246	[NetworkThread-8] DEBUG com.tradingapp.config.ConfigLoader - Setting up test environment
+2024-10-17 21:11:30.544 [RiskManager-11] DEBUG com.tradingapp.auth.AuthenticationService - Session token generated
+2024-10-17 21:11:31.006	[MarketDataThread-3] WARN com.tradingapp.analytics.AnalyticsProcessor - Unusual trading volume observed
+2024-10-17 21:11:31.370	[TradeProcessor-10] INFO com.tradingapp.execution.ExecutionEngine - Position updated in portfolio
+2024-10-17 21:11:31.713	[CacheThread-5] INFO com.tradingapp.analytics.AnalyticsProcessor - Margin requirements updated
+2024-10-17 21:11:31.859	[RiskManager-11] INFO com.tradingapp.alert.AlertManager - Connection established with exchange
+2024-10-17 21:11:32.020 [main] INFO com.tradingapp.auth.AuthenticationService - User logged in successfully
+2024-10-17 21:11:32.142	[MarketDataThread-3] INFO com.tradingapp.analytics.AnalyticsProcessor - Market data update processed
+2024-10-17 21:11:32.210	[RiskManager-11] INFO com.tradingapp.order.OrderService - Heartbeat received from exchange
+2024-10-17 21:11:32.403	[MarketDataThread-3] INFO - Session token refreshed
+2024-10-17 21:11:32.663	[BackupThread-15] DEBUG com.tradingapp.order.OrderService - Managing thread pool
+2024-10-17 21:11:32.751	[CacheThread-5] WARN com.tradingapp.alert.AlertManager - High memory usage
+2024-10-17 21:11:32.931	[DataIngestion-12] DEBUG com.tradingapp.order.OrderService - Decrypting received data
+2024-10-17 21:11:33.420 [ReportGenerator-14] INFO com.tradingapp.config.ConfigLoader - Cache initialized
+2024-10-17 21:11:33.888	[AuthThread-4] INFO com.tradingapp.config.ConfigLoader - Margin requirements updated
+2024-10-17 21:11:34.220 [AlertThread-6] INFO com.tradingapp.network.NetworkManager - Configuration loaded successfully
+2024-10-17 21:11:34.476	[AuthThread-4] ERROR com.tradingapp.auth.AuthenticationService - Disk read failure
+2024-10-17 21:11:34.564 [AuthThread-4] INFO com.tradingapp.utils.DatabaseConnector - Position updated in portfolio
+2024-10-17 21:11:35.003 [AlertThread-6] INFO com.tradingapp.auth.AuthenticationService - Scheduled maintenance completed
+2024-10-17 21:11:35.225 [ExecThread-2] DEBUG com.tradingapp.execution.ExecutionEngine - Decompressing data stream
+2024-10-17 21:11:35.445 [main] WARN com.tradingapp.cache.CacheManager - High memory usage
+2024-10-17 21:11:35.693	[AuthThread-4] INFO com.tradingapp.analytics.AnalyticsProcessor - Heartbeat received from exchange
+2024-10-17 21:11:35.809	[NotificationService-13] WARN com.tradingapp.cache.CacheManager - User session about to expire
+2024-10-17 21:11:36.242	[ExecThread-2] WARN com.tradingapp.cache.CacheManager - Unusual trading volume observed
+2024-10-17 21:11:36.261	[CacheThread-5] DEBUG com.tradingapp.execution.ExecutionEngine - Managing thread pool
+2024-10-17 21:11:36.684 [ReportGenerator-14] DEBUG com.tradingapp.utils.DatabaseConnector - Tracking user session
+2024-10-17 21:11:37.130	[main] DEBUG - Decrypting received data
+2024-10-17 21:11:37.175	[AlertThread-6] DEBUG com.tradingapp.utils.DatabaseConnector - Managing thread pool
+2024-10-17 21:11:37.316	[AlertThread-6] DEBUG com.tradingapp.marketdata.MarketDataHandler - Fetching market data snapshot
+2024-10-17 21:11:37.510 [AlertThread-6] INFO com.tradingapp.utils.DatabaseConnector - Cache initialized
+2024-10-17 21:11:37.536	[AnalyticsThread-7] DEBUG com.tradingapp.config.ConfigLoader - Rotating log files
+2024-10-17 21:11:37.654	[BackupThread-15] INFO com.tradingapp.config.ConfigLoader - Market data update processed
+2024-10-17 21:11:37.788 [DataIngestion-12] INFO com.tradingapp.marketdata.MarketDataHandler - Position updated in portfolio
+2024-10-17 21:11:38.140 [ReportGenerator-14] WARN com.tradingapp.alert.AlertManager - Failed to acquire necessary locks
+2024-10-17 21:11:38.608	[DBThread-9] WARN com.tradingapp.execution.ExecutionEngine - Failed to write to log file
+2024-10-17 21:11:38.801 [BackupThread-15] INFO com.tradingapp.cache.CacheManager - Liquidity provision optimized
+2024-10-17 21:11:39.019 [AnalyticsThread-7] DEBUG com.tradingapp.marketdata.MarketDataHandler - Balancing load across servers
+2024-10-17 21:11:39.155	[CacheThread-5] DEBUG com.tradingapp.alert.AlertManager - Refreshing API tokens
+2024-10-17 21:11:39.537 [main] INFO com.tradingapp.order.OrderService - Compliance check passed
+2024-10-17 21:11:39.565	[ReportGenerator-14] INFO com.tradingapp.auth.AuthenticationService - Position updated in portfolio
+2024-10-17 21:11:39.978 [TradeProcessor-10] DEBUG com.tradingapp.execution.ExecutionEngine - Validating input parameters
+2024-10-17 21:11:40.175	[NotificationService-13] DEBUG com.tradingapp.execution.ExecutionEngine - Profiling memory usage
+2024-10-17 21:11:40.285 [DBThread-9] WARN com.tradingapp.marketdata.MarketDataHandler - Failed to send heartbeat
+2024-10-17 21:11:40.584	[TradeProcessor-10] INFO com.tradingapp.utils.DatabaseConnector - User logged in successfully
+2024-10-17 21:11:40.998	[DataIngestion-12] INFO com.tradingapp.analytics.AnalyticsProcessor - Price feed subscribed
+2024-10-17 21:11:41.242	[ReportGenerator-14] INFO com.tradingapp.cache.CacheManager - Session token refreshed
+2024-10-17 21:11:41.722 [AlertThread-6] DEBUG - Fetching market data snapshot
+2024-10-17 21:11:41.728	[AuthThread-4] INFO com.tradingapp.cache.CacheManager - Balance updated
+2024-10-17 21:11:42.149	[OrderThread-1] INFO com.tradingapp.auth.AuthenticationService - Historical data loaded
+2024-10-17 21:11:42.493	[DBThread-9] INFO com.tradingapp.cache.CacheManager - Session token refreshed
+2024-10-17 21:11:42.825 [AlertThread-6] INFO com.tradingapp.analytics.AnalyticsProcessor - Asset allocation adjusted
+2024-10-17 21:11:42.897	[OrderThread-1] WARN com.tradingapp.config.ConfigLoader - Disk space running low
+2024-10-17 21:11:42.903	[NotificationService-13] INFO com.tradingapp.config.ConfigLoader - Trade history archived
+2024-10-17 21:11:42.933 [AnalyticsThread-7] WARN com.tradingapp.analytics.AnalyticsProcessor - Cache miss occurred
+2024-10-17 21:11:43.015	[BackupThread-15] INFO com.tradingapp.network.NetworkManager - Margin requirements updated
+2024-10-17 21:11:43.466 [main] DEBUG com.tradingapp.execution.ExecutionEngine - Balancing load across servers
+2024-10-17 21:11:43.686	[RiskManager-11] DEBUG com.tradingapp.auth.AuthenticationService - Updating UI components
+2024-10-17 21:11:43.948	[BackupThread-15] WARN com.tradingapp.network.NetworkManager - Retrying connection to exchange
+2024-10-17 21:11:44.050 [ReportGenerator-14] WARN com.tradingapp.marketdata.MarketDataHandler - High CPU usage detected
+2024-10-17 21:11:44.472	[OrderThread-1] INFO com.tradingapp.config.ConfigLoader - New trading session started
+2024-10-17 21:11:44.827	[DBThread-9] ERROR com.tradingapp.network.NetworkManager - Timeout while waiting for response
+2024-10-17 21:11:45.278 [AnalyticsThread-7] DEBUG com.tradingapp.marketdata.MarketDataHandler - Encrypting sensitive data
+2024-10-17 21:11:45.659	[MarketDataThread-3] WARN com.tradingapp.network.NetworkManager - Unrecognized message type
+2024-10-17 21:11:45.893	[BackupThread-15] INFO com.tradingapp.config.ConfigLoader - Order received for execution
+2024-10-17 21:11:46.208	[BackupThread-15] WARN com.tradingapp.order.OrderService - Unrecognized message type
+2024-10-17 21:11:46.397 [MarketDataThread-3] DEBUG com.tradingapp.auth.AuthenticationService - Optimizing query performance
+2024-10-17 21:11:46.706 [AuthThread-4] INFO com.tradingapp.config.ConfigLoader - User logged in successfully
+2024-10-17 21:11:46.723 [ExecThread-2] ERR com.tradingapp.config.ConfigLoader - Failed to start service
+	at com.tradingapp.config.ConfigLoader.methodB(ConfigLoader.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+2024-10-17 21:11:47.134	[NetworkThread-8] INFO com.tradingapp.cache.CacheManager - Exchange rate updated
+2024-10-17 21:11:47.197	[MarketDataThread-3] INFO com.tradingapp.analytics.AnalyticsProcessor - Connection established with exchange
+2024-10-17 21:11:47.624	[CacheThread-5] WARN com.tradingapp.alert.AlertManager - Connection timeout with broker
+2024-10-17 21:11:48.036 [TradeProcessor-10] INFO com.tradingapp.auth.AuthenticationService - Trade limit reset
+2024-10-17 21:11:48.210	[OrderThread-1] INFO com.tradingapp.execution.ExecutionEngine - Price feed subscribed
+2024-10-17 21:11:48.646 [RiskManager-11] DEBUG com.tradingapp.config.ConfigLoader - Validating transaction integrity
+2024-10-17 21:11:48.984 [ReportGenerator-14] INFO com.tradingapp.analytics.AnalyticsProcessor - Exchange rate updated
+2024-10-17 21:11:49.067	[ExecThread-2] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Retrying failed operation
+2024-10-17 21:11:49.296	[CacheThread-5] INFO com.tradingapp.marketdata.MarketDataHandler - User preferences saved
+2024-10-17 21:11:49.562 [AlertThread-6] WARN com.tradingapp.auth.AuthenticationService - Potential deadlock detected
+2024-10-17 21:11:49.950 [DataIngestion-12] INFO com.tradingapp.analytics.AnalyticsProcessor - Asset allocation adjusted
+2024-10-17 21:11:50.385 [BackupThread-15] ERROR com.tradingapp.analytics.AnalyticsProcessor - Error writing to output stream
+	at com.tradingapp.analytics.AnalyticsProcessor.methodB(AnalyticsProcessor.java:78)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+	at com.tradingapp.analytics.AnalyticsProcessor.methodA(AnalyticsProcessor.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2024-10-17 21:11:50.472 [TradeProcessor-10] ERROR com.tradingapp.execution.ExecutionEngine - Order rejection from exchange
+2024-10-17 21:11:50.727	[ExecThread-2] WARN com.tradingapp.analytics.AnalyticsProcessor - Failed to send heartbeat
+2024-10-17 21:11:50.851 [AlertThread-6] DEBUG com.tradingapp.auth.AuthenticationService - Loading external libraries
+2024-10-17 21:11:51.198	[OrderThread-1] INFO com.tradingapp.auth.AuthenticationService - Session token refreshed
+2024-10-17 21:11:51.200 [DBThread-9] ERROR com.tradingapp.auth.AuthenticationService - Failed to acquire database lock
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.auth.AuthenticationService.methodA(AuthenticationService.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at com.tradingapp.utils.HelperClass.methodC(HelperClass.java:102)
+2024-10-17 21:11:51.304 [DBThread-9] INFO com.tradingapp.network.NetworkManager - Configuration loaded successfully
+2024-10-17 21:11:51.305 [DBThread-9] ERROR com.tradingapp.marketdata.MarketDataHandler - Failed to initialize cache
+2024-10-17 21:11:51.778	[AnalyticsThread-7] DEBUG com.tradingapp.auth.AuthenticationService - Lock acquired on resource
+2024-10-17 21:11:51.875	[RiskManager-11] DEBUG com.tradingapp.auth.AuthenticationService - Deserializing market data
+2024-10-17 21:11:52.319 [BackupThread-15] ERROR com.tradingapp.config.ConfigLoader - Unable to update balance
+2024-10-17 21:11:52.566 [ExecThread-2] WARN com.tradingapp.alert.AlertManager - Slow response from database
+2024-10-17 21:11:52.692 [AlertThread-6] DEBUG com.tradingapp.order.OrderService - Order validation passed
+2024-10-17 21:11:53.040	[AlertThread-6] DEBUG com.tradingapp.order.OrderService - Aggregating metrics data
+2024-10-17 21:11:53.384 [RiskManager-11] ERROR com.tradingapp.auth.AuthenticationService - Unable to update balance
+2024-10-17 21:11:53.828	[AuthThread-4] DEBUG com.tradingapp.auth.AuthenticationService - Balancing load across servers
+2024-10-17 21:11:53.929 [AuthThread-4] INFO com.tradingapp.analytics.AnalyticsProcessor - Margin requirements updated
+2024-10-17 21:11:54.180	[ExecThread-2] DEBUG com.tradingapp.auth.AuthenticationService - Initializing module dependencies
+2024-10-17 21:11:54.663	[ReportGenerator-14] INFO com.tradingapp.cache.CacheManager - Liquidity provision optimized
+2024-10-17 21:11:54.909	[TradeProcessor-10] INFO com.tradingapp.network.NetworkManager - User logged in successfully
+2024-10-17 21:11:55.393	[AuthThread-4] ERROR com.tradingapp.execution.ExecutionEngine - Error writing to output stream
+2024-10-17 21:11:55.784	[AlertThread-6] INFO com.tradingapp.network.NetworkManager - Exchange rate updated
+2024-10-17 21:11:56.192 [AnalyticsThread-7] INFO com.tradingapp.utils.DatabaseConnector - Balance updated
+2024-10-17 21:11:56.226	[BackupThread-15] DEBUG com.tradingapp.alert.AlertManager - Configuring network settings
+2024-10-17 21:11:56.315 [ExecThread-2] INFO com.tradingapp.analytics.AnalyticsProcessor - User notification sent
+2024-10-17 21:11:56.327 [NotificationService-13] INFO com.tradingapp.order.OrderService - External API call successful
+2024-10-17 21:11:56.563	[BackupThread-15] DEBUG com.tradingapp.marketdata.MarketDataHandler - Retrying failed operation
+2024-10-17 21:11:56.696 [DataIngestion-12] INFO com.tradingapp.order.OrderService - Order received for execution
+2024-10-17 21:11:56.843 [RiskManager-11] INFO com.tradingapp.auth.AuthenticationService - Trade limit reset
+2024-10-17 21:11:56.853 [NetworkThread-8] INFO com.tradingapp.config.ConfigLoader - Balance updated
+2024-10-17 21:11:57.263 [TradeProcessor-10] WARN com.tradingapp.config.ConfigLoader - Failed to write to log file
+2024-10-17 21:11:57.299 [ReportGenerator-14] DEBUG com.tradingapp.cache.CacheManager - Tracking user session
+2024-10-17 21:11:57.709 [NotificationService-13] WARN com.tradingapp.utils.DatabaseConnector - Potential deadlock detected
+2024-10-17 21:11:58.045	[NetworkThread-8] WARN com.tradingapp.utils.DatabaseConnector - Thread pool exhausted
+2024-10-17 21:11:58.068	[DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - User preferences saved
+2024-10-17 21:11:58.224	[RiskManager-11] INFO com.tradingapp.utils.DatabaseConnector - Risk parameters evaluated
+2024-10-17 21:11:58.295 [BackupThread-15] INFO com.tradingapp.utils.DatabaseConnector - Exchange rate updated
+2024-10-17 21:11:58.742	[main] WARN com.tradingapp.network.NetworkManager - User session about to expire
+2024-10-17 21:11:59.086 [ReportGenerator-14] INFO com.tradingapp.cache.CacheManager - Market summary generated
+2024-10-17 21:11:59.579	[DataIngestion-12] INFO com.tradingapp.config.ConfigLoader - Price feed subscribed
+2024-10-17 21:11:59.984 [AuthThread-4] INFO com.tradingapp.order.OrderService - Liquidity provision optimized
+2024-10-17 21:12:00.365 [AnalyticsThread-7] INFO com.tradingapp.auth.AuthenticationService - Order status synchronized
+2024-10-17 21:12:00.465 [AnalyticsThread-7] INFO com.tradingapp.config.ConfigLoader - Balance updated
+2024-10-17 21:12:00.761 [ReportGenerator-14] ERROR com.tradingapp.alert.AlertManager - Permission denied when accessing resource
+2024-10-17 21:12:01.043 [RiskManager-11] DEBUG - Garbage collection initiated
+2024-10-17 21:12:01.412 [MarketDataThread-3] WARN com.tradingapp.marketdata.MarketDataHandler - Unexpected user input received
+2024-10-17 21:12:01.461 [AlertThread-6] ERROR com.tradingapp.alert.AlertManager - ArrayIndexOutOfBoundsException in MarketDataHandler
+2024-10-17 21:12:01.895	[main] WARN com.tradingapp.config.ConfigLoader - Thread pool exhausted
+2024-10-17 21:12:02.143 [AlertThread-6] WARN com.tradingapp.analytics.AnalyticsProcessor - Retrying connection to exchange
+2024-10-17 21:12:02.501 [RiskManager-11] DEBUG com.tradingapp.config.ConfigLoader - Analyzing trade patterns
+2024-10-17 21:12:02.991	[OrderThread-1] WARN com.tradingapp.alert.AlertManager - High memory usage
+2024-10-17 21:12:03.096	[DataIngestion-12] ERROR com.tradingapp.marketdata.MarketDataHandler - IOException in NetworkManager
+2024-10-17 21:12:03.450	[TradeProcessor-10] INFO com.tradingapp.order.OrderService - Market data update processed
+2024-10-17 21:12:03.715	[NotificationService-13] INFO com.tradingapp.marketdata.MarketDataHandler - Trade limit reset
+2024-10-17 21:12:04.003 [NotificationService-13] WARN com.tradingapp.marketdata.MarketDataHandler - High memory usage
+2024-10-17 21:12:04.435 [RiskManager-11] ERROR com.tradingapp.order.OrderService - Disk read failure
+2024-10-17 21:12:04.610	[AuthThread-4] WARN com.tradingapp.execution.ExecutionEngine - Connection timeout with broker
+2024-10-17 21:12:04.950	[DataIngestion-12] INFO com.tradingapp.alert.AlertManager - Price feed subscribed
+2024-10-17 21:12:05.226	[OrderThread-1] INFO com.tradingapp.network.NetworkManager - Price feed subscribed
+2024-10-17 21:12:05.643 [AuthThread-4] WARN com.tradingapp.order.OrderService - Connection timeout with broker
+2024-10-17 21:12:05.985 [AlertThread-6] INFO com.tradingapp.marketdata.MarketDataHandler - Session token refreshed
+2024-10-17 21:12:06.112 [MarketDataThread-3] INFO com.tradingapp.network.NetworkManager - Market summary generated
+2024-10-17 21:12:06.408 [ReportGenerator-14] INFO com.tradingapp.alert.AlertManager - Position updated in portfolio
+2024-10-17 21:12:06.598 [main] INFO com.tradingapp.execution.ExecutionEngine - Market data update processed
+2024-10-17 21:12:06.883 [ReportGenerator-14] INFO com.tradingapp.cache.CacheManager - Order received for execution
+2024-10-17 21:12:06.973	[DBThread-9] DEBUG com.tradingapp.execution.ExecutionEngine - Decrypting received data
+2024-10-17 21:12:07.409 [MarketDataThread-3] WARN com.tradingapp.auth.AuthenticationService - High memory usage
+2024-10-17 21:12:07.436	[BackupThread-15] DEBUG com.tradingapp.auth.AuthenticationService - Processing trade execution
+2024-10-17 21:12:07.680	[NetworkThread-8] INFO com.tradingapp.execution.ExecutionEngine - Balance updated
+2024-10-17 21:12:07.904 [DBThread-9] DEBUG com.tradingapp.network.NetworkManager - Deserializing market data
+2024-10-17 21:12:08.128 [ExecThread-2] DEBUG com.tradingapp.auth.AuthenticationService - Session token generated
+2024-10-17 21:12:08.199	[ExecThread-2] WARN com.tradingapp.analytics.AnalyticsProcessor - Unrecognized message type
+2024-10-17 21:12:08.551 [RiskManager-11] INFO com.tradingapp.execution.ExecutionEngine - Order received for execution
+2024-10-17 21:12:08.847 [DBThread-9] INFO com.tradingapp.cache.CacheManager - Trade limit reset
+2024-10-17 21:12:08.914	[MarketDataThread-3] DEBUG com.tradingapp.marketdata.MarketDataHandler - Scaling application instances
+2024-10-17 21:12:09.400 [ExecThread-2] DEBUG com.tradingapp.execution.ExecutionEngine - Debugging authentication flow
+2024-10-17 21:12:09.626	[AlertThread-6] INFO com.tradingapp.auth.AuthenticationService - Asset allocation adjusted
+2024-10-17 21:12:09.734 [NetworkThread-8] INFO com.tradingapp.auth.AuthenticationService - Balance updated
+2024-10-17 21:12:09.900 [NotificationService-13] DEBUG - Session token generated
+2024-10-17 21:12:10.092 [main] DEBUG - Session token generated
+2024-10-17 21:12:10.163 [CacheThread-5] DEBUG com.tradingapp.alert.AlertManager - Fetching market data snapshot
+2024-10-17 21:12:10.198	[DBThread-9] INFO com.tradingapp.cache.CacheManager - User preferences saved
+2024-10-17 21:12:10.223 [MarketDataThread-3] INFO com.tradingapp.network.NetworkManager - Scheduled maintenance completed
+2024-10-17 21:12:10.622 [ExecThread-2] WARN com.tradingapp.cache.CacheManager - Failed to send heartbeat
+2024-10-17 21:12:10.879	[main] DEBUG com.tradingapp.utils.DatabaseConnector - Managing thread pool
+2024-10-17 21:12:11.363 [AlertThread-6] DEBUG com.tradingapp.cache.CacheManager - Initializing module dependencies
+2024-10-17 21:12:11.749 [MarketDataThread-3] WARN com.tradingapp.auth.AuthenticationService - High memory usage
+2024-10-17 21:12:12.041	[DataIngestion-12] DEBUG com.tradingapp.auth.AuthenticationService - Configuring network settings
+2024-10-17 21:12:12.072	[RiskManager-11] INFO com.tradingapp.network.NetworkManager - Asset allocation adjusted
+2024-10-17 21:12:12.564	[OrderThread-1] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Thread started
+2024-10-17 21:12:12.840 [DataIngestion-12] INFO com.tradingapp.order.OrderService - Trade history archived
+2024-10-17 21:12:13.040	[ExecThread-2] WARN com.tradingapp.auth.AuthenticationService - Data inconsistency found
+2024-10-17 21:12:13.204 [DBThread-9] DEBUG com.tradingapp.marketdata.MarketDataHandler - Temporary file created
+2024-10-17 21:12:13.432 [AuthThread-4] INFO com.tradingapp.utils.DatabaseConnector - User logged in successfully
+2024-10-17 21:12:13.908	[NetworkThread-8] INFO com.tradingapp.analytics.AnalyticsProcessor - Session token refreshed
+2024-10-17 21:12:14.227	[ExecThread-2] INFO com.tradingapp.network.NetworkManager - Price feed subscribed
+2024-10-17 21:12:14.262 [AuthThread-4] INFO - Trade settled successfully
+2024-10-17 21:12:14.734	[ReportGenerator-14] INFO com.tradingapp.marketdata.MarketDataHandler - Order received for execution
+2024-10-17 21:12:14.926	[MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - Order received for execution
+2024-10-17 21:12:15.350 [NotificationService-13] INFO com.tradingapp.config.ConfigLoader - Trade limit reset
+2024-10-17 21:12:15.729	[AnalyticsThread-7] INFO com.tradingapp.config.ConfigLoader - Configuration loaded successfully
+2024-10-17 21:12:15.791	[RiskManager-11] WARN com.tradingapp.config.ConfigLoader - Partial fill received
+2024-10-17 21:12:15.826 [RiskManager-11] ERROR com.tradingapp.marketdata.MarketDataHandler - Unhandled exception in thread
+2024-10-17 21:12:16.070	[CacheThread-5] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Scaling application instances
+2024-10-17 21:12:16.215	[NotificationService-13] DEBUG com.tradingapp.network.NetworkManager - Refreshing API tokens
+2024-10-17 21:12:16.460 [ReportGenerator-14] INFO com.tradingapp.cache.CacheManager - New trading session started
+2024-10-17 21:12:16.856 [OrderThread-1] DEBUG com.tradingapp.network.NetworkManager - Aggregating metrics data
+2024-10-17 21:12:16.985 [AuthThread-4] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Order validation passed
+2024-10-17 21:12:17.060 [DataIngestion-12] WARN com.tradingapp.analytics.AnalyticsProcessor - High CPU usage detected
+2024-10-17 21:12:17.558	[AlertThread-6] DEBUG com.tradingapp.utils.DatabaseConnector - Serializing order object
+2024-10-17 21:12:17.585 [MarketDataThread-3] ERROR com.tradingapp.auth.AuthenticationService - User authentication failed
+2024-10-17 21:12:17.858 [ExecThread-2] INFO com.tradingapp.execution.ExecutionEngine - Portfolio rebalanced
+2024-10-17 21:12:17.905	[DataIngestion-12] WARN com.tradingapp.analytics.AnalyticsProcessor - Service latency above threshold
+2024-10-17 21:12:18.036 [AlertThread-6] INFO com.tradingapp.cache.CacheManager - Cache initialized
+2024-10-17 21:12:18.054 [ExecThread-2] INFO com.tradingapp.analytics.AnalyticsProcessor - Order received for execution
+2024-10-17 21:12:18.435	[OrderThread-1] INFO com.tradingapp.auth.AuthenticationService - Portfolio rebalanced
+2024-10-17 21:12:18.449	[ReportGenerator-14] INFO com.tradingapp.auth.AuthenticationService - Position updated in portfolio
+2024-10-17 21:12:18.802	[CacheThread-5] DEBUG com.tradingapp.marketdata.MarketDataHandler - Deserializing request payload
+2024-10-17 21:12:18.982	[NotificationService-13] DEBUG com.tradingapp.order.OrderService - Compressing log data
+2024-10-17 21:12:19.108	[CacheThread-5] DEBUG com.tradingapp.execution.ExecutionEngine - Managing thread pool
+2024-10-17 21:12:19.236	[CacheThread-5] WARN com.tradingapp.execution.ExecutionEngine - External service response delayed
+2024-10-17 21:12:19.655 [RiskManager-11] DEBUG com.tradingapp.order.OrderService - Aggregating metrics data
+2024-10-17 21:12:20.018 [AuthThread-4] WARN com.tradingapp.alert.AlertManager - Unexpected user input received
+2024-10-17 21:12:20.188 [CacheThread-5] DEBUG com.tradingapp.auth.AuthenticationService - Aggregating metrics data
+2024-10-17 21:12:20.192	[OrderThread-1] WARN com.tradingapp.auth.AuthenticationService - Failed to send heartbeat
+2024-10-17 21:12:20.646	[AuthThread-4] WARN com.tradingapp.auth.AuthenticationService - Configuration parameter missing, using default
+2024-10-17 21:12:20.864	[DBThread-9] WARN com.tradingapp.cache.CacheManager - Cache miss occurred
+2024-10-17 21:12:21.125 [ReportGenerator-14] INFO com.tradingapp.execution.ExecutionEngine - Liquidity provision optimized
+2024-10-17 21:12:21.522	[main] INFO com.tradingapp.alert.AlertManager - Risk parameters evaluated
+2024-10-17 21:12:21.805	[ReportGenerator-14] INFO com.tradingapp.analytics.AnalyticsProcessor - Portfolio rebalanced
+2024-10-17 21:12:21.903	[TradeProcessor-10] INFO com.tradingapp.execution.ExecutionEngine - Risk parameters evaluated
+2024-10-17 21:12:21.983	[NetworkThread-8] DEBUG com.tradingapp.marketdata.MarketDataHandler - Capturing screenshot for debugging
+2024-10-17 21:12:22.472 [CacheThread-5] DEBUG com.tradingapp.cache.CacheManager - Serializing response payload
+2024-10-17 21:12:22.733 [TradeProcessor-10] ERROR com.tradingapp.marketdata.MarketDataHandler - NullPointerException in OrderService
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	at com.tradingapp.marketdata.MarketDataHandler.methodB(MarketDataHandler.java:78)
+	at com.tradingapp.marketdata.MarketDataHandler.methodA(MarketDataHandler.java:56)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2024-10-17 21:12:22.973	[CacheThread-5] INFO com.tradingapp.cache.CacheManager - Position updated in portfolio
+2024-10-17 21:12:23.078 [RiskManager-11] INFO com.tradingapp.order.OrderService - Margin requirements updated
+2024-10-17 21:12:23.100 [AuthThread-4] INFO com.tradingapp.config.ConfigLoader - Portfolio rebalanced
+2024-10-17 21:12:23.359	[NotificationService-13] DEBUG com.tradingapp.config.ConfigLoader - Decrypting received data
+2024-10-17 21:12:23.375	[BackupThread-15] INFO com.tradingapp.cache.CacheManager - User logged in successfully
+2024-10-17 21:12:23.858	[DBThread-9] INFO com.tradingapp.execution.ExecutionEngine - User logged in successfully
+2024-10-17 21:12:23.956	[TradeProcessor-10] INFO com.tradingapp.utils.DatabaseConnector - Order received for execution
+2024-10-17 21:12:24.453	[AuthThread-4] INFO com.tradingapp.auth.AuthenticationService - New trading session started
+2024-10-17 21:12:24.802 [BackupThread-15] INFO com.tradingapp.utils.DatabaseConnector - Cache initialized
+2024-10-17 21:12:24.846 [ExecThread-2] DEBUG com.tradingapp.config.ConfigLoader - Memory usage checked
+2024-10-17 21:12:25.085	[TradeProcessor-10] INFO com.tradingapp.analytics.AnalyticsProcessor - Cache initialized
+2024-10-17 21:12:25.110 [main] INFO com.tradingapp.order.OrderService - Market data update processed
+2024-10-17 21:12:25.577 [ReportGenerator-14] ERROR com.tradingapp.auth.AuthenticationService - Disk read failure
+2024-10-17 21:12:25.778 [MarketDataThread-3] INFO com.tradingapp.cache.CacheManager - User notification sent
+2024-10-17 21:12:26.043 [NotificationService-13] ERROR com.tradingapp.network.NetworkManager - Failed to load security keys
+2024-10-17 21:12:26.537	[BackupThread-15] INFO com.tradingapp.order.OrderService - User notification sent
+2024-10-17 21:12:26.981 [CacheThread-5] WARN com.tradingapp.cache.CacheManager - Unusual trading volume observed
+2024-10-17 21:12:27.347 [AlertThread-6] ERROR com.tradingapp.marketdata.MarketDataHandler - Service unavailable
+2024-10-17 21:12:27.745 [main] WARN com.tradingapp.utils.DatabaseConnector - Resource utilization exceeds limits
+2024-10-17 21:12:28.206	[ExecThread-2] DEBUG com.tradingapp.config.ConfigLoader - Debugging authentication flow
+2024-10-17 21:12:28.419 [ReportGenerator-14] DEBUG com.tradingapp.execution.ExecutionEngine - Managing thread pool
+2024-10-17 21:12:28.573	[CacheThread-5] INFO com.tradingapp.cache.CacheManager - Trade history archived
+2024-10-17 21:12:28.862 [BackupThread-15] INFO com.tradingapp.network.NetworkManager - Order book updated
+2024-10-17 21:12:29.337 [BackupThread-15] DEBUG com.tradingapp.config.ConfigLoader - Capturing screenshot for debugging
+2024-10-17 21:12:29.726 [TradeProcessor-10] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Managing thread pool
+2024-10-17 21:12:30.055 [DataIngestion-12] INFO com.tradingapp.analytics.AnalyticsProcessor - Trade confirmation received
+2024-10-17 21:12:30.391 [DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - Trade settled successfully
+2024-10-17 21:12:30.581 [ExecThread-2] INFO com.tradingapp.alert.AlertManager - Portfolio rebalanced
+2024-10-17 21:12:30.765	[main] INFO com.tradingapp.order.OrderService - Historical data loaded
+2024-10-17 21:12:31.066 [RiskManager-11] INFO com.tradingapp.network.NetworkManager - Liquidity provision optimized
+2024-10-17 21:12:31.126	[ExecThread-2] DEBUG com.tradingapp.order.OrderService - Executing unit tests
+2024-10-17 21:12:31.461 [AnalyticsThread-7] WARN com.tradingapp.alert.AlertManager - Unexpected user input received
+2024-10-17 21:12:31.906	[DBThread-9] INFO com.tradingapp.analytics.AnalyticsProcessor - Price feed subscribed
+2024-10-17 21:12:32.388	[CacheThread-5] WARN com.tradingapp.marketdata.MarketDataHandler - Unusual trading volume observed
+2024-10-17 21:12:32.563 [OrderThread-1] ERROR com.tradingapp.config.ConfigLoader - Failed to allocate buffer memory
+2024-10-17 21:12:32.921	[MarketDataThread-3] INFO com.tradingapp.order.OrderService - User logged in successfully
+2024-10-17 21:12:33.060 [OrderThread-1] DEBUG com.tradingapp.config.ConfigLoader - Aggregating metrics data
+2024-10-17 21:12:33.308	[MarketDataThread-3] DEBUG com.tradingapp.execution.ExecutionEngine - Setting up test environment
+2024-10-17 21:12:33.412	[MarketDataThread-3] WARN com.tradingapp.analytics.AnalyticsProcessor - Unrecognized message type
+2024-10-17 21:12:33.744 [DataIngestion-12] INFO com.tradingapp.analytics.AnalyticsProcessor - Configuration loaded successfully
+2024-10-17 21:12:34.175 [OrderThread-1] INFO com.tradingapp.cache.CacheManager - Connection established with exchange
+2024-10-17 21:12:34.537	[main] INFO com.tradingapp.marketdata.MarketDataHandler - Asset allocation adjusted
+2024-10-17 21:12:34.598 [OrderThread-1] WARN com.tradingapp.order.OrderService - Disk space running low
+2024-10-17 21:12:35.094	[ExecThread-2] INFO com.tradingapp.analytics.AnalyticsProcessor - User preferences saved
+2024-10-17 21:12:35.188 [OrderThread-1] WARN com.tradingapp.order.OrderService - High CPU usage detected
+2024-10-17 21:12:35.496	[AnalyticsThread-7] INFO com.tradingapp.marketdata.MarketDataHandler - Market summary generated
+2024-10-17 21:12:35.925	[BackupThread-15] INFO com.tradingapp.order.OrderService - User logged in successfully
+2024-10-17 21:12:36.300 [DataIngestion-12] INFO com.tradingapp.alert.AlertManager - Exchange rate updated
+2024-10-17 21:12:36.328	[AnalyticsThread-7] INFO - Price feed subscribed
+2024-10-17 21:12:36.598 [DBThread-9] INFO com.tradingapp.auth.AuthenticationService - Trade settled successfully
+2024-10-17 21:12:36.894	[MarketDataThread-3] WARN com.tradingapp.marketdata.MarketDataHandler - High memory usage
+2024-10-17 21:12:36.984	[DataIngestion-12] INFO com.tradingapp.order.OrderService - Price feed subscribed
+2024-10-17 21:12:37.100	[NetworkThread-8] WARN com.tradingapp.network.NetworkManager - Configuration parameter missing, using default
+2024-10-17 21:12:37.139	[DataIngestion-12] DEBUG com.tradingapp.auth.AuthenticationService - Rotating log files
+2024-10-17 21:12:37.529 [MarketDataThread-3] DEBUG com.tradingapp.order.OrderService - Parsing JSON response
+2024-10-17 21:12:37.692 [CacheThread-5] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Deserializing market data
+2024-10-17 21:12:38.013 [DataIngestion-12] INFO com.tradingapp.marketdata.MarketDataHandler - Margin requirements updated
+2024-10-17 21:12:38.217	[NotificationService-13] INFO com.tradingapp.auth.AuthenticationService - Position updated in portfolio
+2024-10-17 21:12:38.246	[DBThread-9] INFO com.tradingapp.order.OrderService - Market summary generated
+2024-10-17 21:12:38.363 [NotificationService-13] INFO com.tradingapp.order.OrderService - Market summary generated
+2024-10-17 21:12:38.758 [NotificationService-13] ERROR com.tradingapp.order.OrderService - User authentication failed
+2024-10-17 21:12:38.841 [DBThread-9] WARN com.tradingapp.auth.AuthenticationService - Price deviation detected
+2024-10-17 21:12:38.963 [main] INFO com.tradingapp.cache.CacheManager - Trade settled successfully
+2024-10-17 21:12:39.132 [DBThread-9] INFO com.tradingapp.network.NetworkManager - Exchange rate updated
+2024-10-17 21:12:39.198 [TradeProcessor-10] INFO com.tradingapp.cache.CacheManager - Asset allocation adjusted
+2024-10-17 21:12:39.657 [AuthThread-4] ERROR com.tradingapp.config.ConfigLoader - Unable to update balance
+2024-10-17 21:12:40.152	[main] INFO com.tradingapp.network.NetworkManager - Session token refreshed
+2024-10-17 21:12:40.618	[NotificationService-13] WARN com.tradingapp.order.OrderService - Unusual trading volume observed
+2024-10-17 21:12:41.035 [ReportGenerator-14] INFO com.tradingapp.analytics.AnalyticsProcessor - Trade settled successfully
+2024-10-17 21:12:41.157	[BackupThread-15] DEBUG com.tradingapp.marketdata.MarketDataHandler - Debugging authentication flow
+2024-10-17 21:12:41.204	[NotificationService-13] INFO com.tradingapp.config.ConfigLoader - User logged in successfully
+2024-10-17 21:12:41.613	[AnalyticsThread-7] ERR ... - Error in trade execution module
+2024-10-17 21:12:41.760 [AnalyticsThread-7] INFO com.tradingapp.marketdata.MarketDataHandler - Session token refreshed
+2024-10-17 21:12:42.047	[ReportGenerator-14] INFO com.tradingapp.cache.CacheManager - Balance updated
+2024-10-17 21:12:42.442	[NetworkThread-8] DEBUG com.tradingapp.config.ConfigLoader - Compressing log data
+2024-10-17 21:12:42.551 [DBThread-9] DEBUG com.tradingapp.utils.DatabaseConnector - Rotating log files
+2024-10-17 21:12:42.876	[AnalyticsThread-7] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Validating input parameters
+2024-10-17 21:12:43.284	[NotificationService-13] INFO com.tradingapp.auth.AuthenticationService - Margin requirements updated
+2024-10-17 21:12:43.394	[main] WARN com.tradingapp.cache.CacheManager - Thread pool exhausted
+2024-10-17 21:12:43.837	[CacheThread-5] DEBUG com.tradingapp.utils.DatabaseConnector - Lock acquired on resource
+2024-10-17 21:12:44.151	[ExecThread-2] DEBUG com.tradingapp.cache.CacheManager - Debugging authentication flow
+2024-10-17 21:12:44.402	[DBThread-9] DEBUG com.tradingapp.utils.DatabaseConnector - Validating input parameters
+2024-10-17 21:12:44.441 [AnalyticsThread-7] INFO com.tradingapp.network.NetworkManager - Margin requirements updated
+2024-10-17 21:12:44.892 [TradeProcessor-10] DEBUG com.tradingapp.utils.DatabaseConnector - Tracking user session
+2024-10-17 21:12:44.925	[CacheThread-5] INFO com.tradingapp.marketdata.MarketDataHandler - Order received for execution
+2024-10-17 21:12:45.394	[BackupThread-15] WARN com.tradingapp.order.OrderService - Price deviation detected
+2024-10-17 21:12:45.444 [NetworkThread-8] ERROR com.tradingapp.marketdata.MarketDataHandler - Order rejection from exchange
+2024-10-17 21:12:45.622 [CacheThread-5] INFO com.tradingapp.order.OrderService - Price feed subscribed
+2024-10-17 21:12:46.075 [OrderThread-1] WARN com.tradingapp.marketdata.MarketDataHandler - Invalid trade signal received
+2024-10-17 21:12:46.177	[ReportGenerator-14] WARN com.tradingapp.auth.AuthenticationService - User session about to expire
+2024-10-17 21:12:46.282 [MarketDataThread-3] DEBUG com.tradingapp.order.OrderService - Balancing load across servers
+2024-10-17 21:12:46.549	[ExecThread-2] WARN com.tradingapp.network.NetworkManager - Slow response from database
+2024-10-17 21:12:46.636 [NotificationService-13] DEBUG com.tradingapp.cache.CacheManager - Updating UI components
+2024-10-17 21:12:46.711 [ExecThread-2] DEBUG com.tradingapp.alert.AlertManager - Aggregating metrics data
+2024-10-17 21:12:46.939	[OrderThread-1] WARN com.tradingapp.auth.AuthenticationService - Service latency above threshold
+2024-10-17 21:12:47.220	[ExecThread-2] INFO com.tradingapp.network.NetworkManager - Scheduled maintenance completed
+2024-10-17 21:12:47.523 [ExecThread-2] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Parsing JSON response
+2024-10-17 21:12:47.889 [MarketDataThread-3] ERROR com.tradingapp.alert.AlertManager - Transaction rollback due to error
+2024-10-17 21:12:48.225 [NotificationService-13] INFO com.tradingapp.order.OrderService - Asset allocation adjusted
+2024-10-17 21:12:48.702 [AuthThread-4] WARN com.tradingapp.auth.AuthenticationService - Failed to send heartbeat
+2024-10-17 21:12:49.039 [ReportGenerator-14] DEBUG com.tradingapp.execution.ExecutionEngine - Validating transaction integrity
+2024-10-17 21:12:49.330	[NotificationService-13] INFO com.tradingapp.auth.AuthenticationService - User preferences saved
+2024-10-17 21:12:49.559	[MarketDataThread-3] INFO com.tradingapp.utils.DatabaseConnector - User logged in successfully
+2024-10-17 21:12:49.637	[AuthThread-4] INFO com.tradingapp.order.OrderService - User preferences saved
+2024-10-17 21:12:49.899	[CacheThread-5] INFO com.tradingapp.execution.ExecutionEngine - Market summary generated
+2024-10-17 21:12:50.255	[CacheThread-5] INFO com.tradingapp.network.NetworkManager - Exchange rate updated
+2024-10-17 21:12:50.352 [NetworkThread-8] DEBUG com.tradingapp.config.ConfigLoader - Analyzing trade patterns
+2024-10-17 21:12:50.482	[RiskManager-11] ERR com.tradingapp.execution.ExecutionEngine - Failed to restart service
+2024-10-17 21:12:50.829 [DataIngestion-12] WARN com.tradingapp.analytics.AnalyticsProcessor - Cache miss occurred
+2024-10-17 21:12:51.244 [MarketDataThread-3] INFO com.tradingapp.network.NetworkManager - Risk parameters evaluated
+2024-10-17 21:12:51.621	[RiskManager-11] INFO com.tradingapp.network.NetworkManager - Position updated in portfolio
+2024-10-17 21:12:52.009 [AnalyticsThread-7] DEBUG com.tradingapp.execution.ExecutionEngine - Loading external libraries
+2024-10-17 21:12:52.125	[MarketDataThread-3] DEBUG com.tradingapp.cache.CacheManager - Updating cache entries
+2024-10-17 21:12:52.161 [ReportGenerator-14] DEBUG com.tradingapp.auth.AuthenticationService - Rotating log files
+2024-10-17 21:12:52.425 [TradeProcessor-10] INFO com.tradingapp.analytics.AnalyticsProcessor - Compliance check passed
+2024-10-17 21:12:52.913	[MarketDataThread-3] WARN com.tradingapp.marketdata.MarketDataHandler - Retrying connection to exchange
+2024-10-17 21:12:52.960	[ReportGenerator-14] DEBUG com.tradingapp.marketdata.MarketDataHandler - Lock acquired on resource
+2024-10-17 21:12:53.077	[NetworkThread-8] DEBUG com.tradingapp.cache.CacheManager - Handling socket connection
+2024-10-17 21:12:53.259	[CacheThread-5] DEBUG com.tradingapp.alert.AlertManager - Latency measurement taken
+2024-10-17 21:12:53.479	[AnalyticsThread-7] INFO com.tradingapp.config.ConfigLoader - New trading session started
+2024-10-17 21:12:53.920	[CacheThread-5] DEBUG com.tradingapp.utils.DatabaseConnector - Analyzing trade patterns
+2024-10-17 21:12:54.131	[AuthThread-4] WARN - Potential deadlock detected
+2024-10-17 21:12:54.595 [ReportGenerator-14] WARN com.tradingapp.execution.ExecutionEngine - Resource utilization exceeds limits
+2024-10-17 21:12:54.731	[AuthThread-4] DEBUG com.tradingapp.utils.DatabaseConnector - Latency measurement taken
+2024-10-17 21:12:54.875 [DBThread-9] DEBUG com.tradingapp.config.ConfigLoader - Decompressing data stream
+2024-10-17 21:12:54.891 [NetworkThread-8] INFO com.tradingapp.order.OrderService - Session token refreshed
+2024-10-17 21:12:55.263	[NetworkThread-8] DEBUG com.tradingapp.config.ConfigLoader - Analyzing trade patterns
+2024-10-17 21:12:55.456 [ReportGenerator-14] INFO com.tradingapp.analytics.AnalyticsProcessor - Balance updated
+2024-10-17 21:12:55.587	[DataIngestion-12] DEBUG com.tradingapp.order.OrderService - Synchronizing database state
+2024-10-17 21:12:55.836	[OrderThread-1] DEBUG com.tradingapp.cache.CacheManager - Updating UI components
+2024-10-17 21:12:56.092 [TradeProcessor-10] ERROR com.tradingapp.alert.AlertManager - Network unreachable
+2024-10-17 21:12:56.295	[MarketDataThread-3] INFO com.tradingapp.config.ConfigLoader - Compliance check passed
+2024-10-17 21:12:56.345 [main] DEBUG com.tradingapp.execution.ExecutionEngine - Deserializing request payload
+2024-10-17 21:12:56.722 [NetworkThread-8] ERROR com.tradingapp.analytics.AnalyticsProcessor - Memory allocation failed
+2024-10-17 21:12:57.017	[TradeProcessor-10] WARN com.tradingapp.marketdata.MarketDataHandler - Failed to acquire necessary locks
+2024-10-17 21:12:57.210	[TradeProcessor-10] DEBUG com.tradingapp.auth.AuthenticationService - Balancing load across servers
+2024-10-17 21:12:57.509	[TradeProcessor-10] DEBUG com.tradingapp.order.OrderService - Dispatching event handler
+2024-10-17 21:12:57.904 [AlertThread-6] INFO com.tradingapp.order.OrderService - Liquidity provision optimized
+2024-10-17 21:12:58.301	[NetworkThread-8] DEBUG com.tradingapp.config.ConfigLoader - Retrying failed operation
+2024-10-17 21:12:58.374	[TradeProcessor-10] WARN com.tradingapp.auth.AuthenticationService - Configuration parameter missing, using default
+2024-10-17 21:12:58.659 [CacheThread-5] DEBUG com.tradingapp.config.ConfigLoader - Parsing JSON response
+2024-10-17 21:12:58.864 [AnalyticsThread-7] INFO com.tradingapp.auth.AuthenticationService - Historical data loaded
+2024-10-17 21:12:58.973 [AuthThread-4] WARN com.tradingapp.utils.DatabaseConnector - User session about to expire
+2024-10-17 21:12:59.454	[DBThread-9] INFO com.tradingapp.auth.AuthenticationService - Liquidity provision optimized
+2024-10-17 21:12:59.807 [ExecThread-2] INFO com.tradingapp.cache.CacheManager - Balance updated
+2024-10-17 21:13:00.129 [BackupThread-15] INFO com.tradingapp.auth.AuthenticationService - Order status synchronized
+2024-10-17 21:13:00.549 [NotificationService-13] ERROR com.tradingapp.auth.AuthenticationService - Dependency resolution failed
+2024-10-17 21:13:00.613	[AlertThread-6] INFO com.tradingapp.order.OrderService - Trade history archived
+2024-10-17 21:13:01.077	[main] INFO com.tradingapp.order.OrderService - Order book updated
+2024-10-17 21:13:01.086	[AnalyticsThread-7] WARN com.tradingapp.analytics.AnalyticsProcessor - Unusual trading volume observed
+2024-10-17 21:13:01.433 [DataIngestion-12] INFO com.tradingapp.execution.ExecutionEngine - Trade history archived
+2024-10-17 21:13:01.522 [OrderThread-1] DEBUG com.tradingapp.cache.CacheManager - Setting up test environment
+2024-10-17 21:13:01.881	[NetworkThread-8] DEBUG com.tradingapp.config.ConfigLoader - Parsing JSON response
+2024-10-17 21:13:02.263	[AnalyticsThread-7] WARN com.tradingapp.analytics.AnalyticsProcessor - Invalid trade signal received
+2024-10-17 21:13:02.554 [main] ERROR com.tradingapp.auth.AuthenticationService - Transaction rollback due to error
+2024-10-17 21:13:02.908	[AuthThread-4] INFO com.tradingapp.execution.ExecutionEngine - Order status synchronized
+2024-10-17 21:13:03.152 [ExecThread-2] INFO - Cache initialized
+2024-10-17 21:13:03.217 [DBThread-9] ERR ... - Failed to restart service
+2024-10-17 21:13:03.350 [DBThread-9] WARN com.tradingapp.order.OrderService - User session about to expire
+2024-10-17 21:13:03.603	[main] INFO com.tradingapp.analytics.AnalyticsProcessor - Trade limit reset
+2024-10-17 21:13:04.021	[DataIngestion-12] DEBUG com.tradingapp.auth.AuthenticationService - Thread started
+2024-10-17 21:13:04.456 [NetworkThread-8] INFO com.tradingapp.execution.ExecutionEngine - External API call successful
+2024-10-17 21:13:04.730 [main] INFO com.tradingapp.order.OrderService - Trade history archived
+2024-10-17 21:13:05.001	[NotificationService-13] ERROR com.tradingapp.marketdata.MarketDataHandler - Network unreachable
+2024-10-17 21:13:05.378 [ExecThread-2] DEBUG com.tradingapp.utils.DatabaseConnector - Synchronizing database state
+2024-10-17 21:13:05.444	[NotificationService-13] ERROR com.tradingapp.cache.CacheManager - User authentication failed
+2024-10-17 21:13:05.516	[main] INFO com.tradingapp.analytics.AnalyticsProcessor - Configuration loaded successfully
+2024-10-17 21:13:05.573	[AlertThread-6] WARN com.tradingapp.order.OrderService - Order quantity exceeds threshold
+2024-10-17 21:13:05.932	[DBThread-9] ERROR com.tradingapp.marketdata.MarketDataHandler - Failed to allocate buffer memory
+2024-10-17 21:13:06.015	[NetworkThread-8] WARN com.tradingapp.analytics.AnalyticsProcessor - High memory usage
+2024-10-17 21:13:06.441	[AuthThread-4] WARN com.tradingapp.alert.AlertManager - Resource utilization exceeds limits
+2024-10-17 21:13:06.485	[BackupThread-15] INFO com.tradingapp.order.OrderService - Price feed subscribed
+2024-10-17 21:13:06.792	[DBThread-9] DEBUG com.tradingapp.config.ConfigLoader - Calculating trade metrics
+2024-10-17 21:13:07.288 [AlertThread-6] WARN com.tradingapp.alert.AlertManager - Retrying connection to exchange
+2024-10-17 21:13:07.612 [CacheThread-5] ERROR com.tradingapp.auth.AuthenticationService - Unable to update balance
+2024-10-17 21:13:08.057	[CacheThread-5] INFO com.tradingapp.execution.ExecutionEngine - Portfolio rebalanced
+2024-10-17 21:13:08.088 [RiskManager-11] DEBUG com.tradingapp.alert.AlertManager - Lock acquired on resource
+2024-10-17 21:13:08.224 [RiskManager-11] INFO com.tradingapp.analytics.AnalyticsProcessor - Trade settled successfully
+2024-10-17 21:13:08.371 [NetworkThread-8] WARN - Unusual trading volume observed
+2024-10-17 21:13:08.513 [DataIngestion-12] DEBUG com.tradingapp.config.ConfigLoader - Message queue size: 42
+2024-10-17 21:13:08.865	[CacheThread-5] WARN com.tradingapp.execution.ExecutionEngine - Unrecognized message type
+2024-10-17 21:13:09.125	[NotificationService-13] INFO com.tradingapp.auth.AuthenticationService - Cache initialized
+2024-10-17 21:13:09.370	[NotificationService-13] INFO - Session token refreshed
+2024-10-17 21:13:09.749 [DataIngestion-12] INFO com.tradingapp.auth.AuthenticationService - Market data update processed
+2024-10-17 21:13:09.852	[ReportGenerator-14] INFO com.tradingapp.order.OrderService - User notification sent
+2024-10-17 21:13:10.041	[DataIngestion-12] DEBUG com.tradingapp.utils.DatabaseConnector - Cache refreshed
+2024-10-17 21:13:10.193	[DBThread-9] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Establishing secure connection
+2024-10-17 21:13:10.591 [ReportGenerator-14] DEBUG com.tradingapp.execution.ExecutionEngine - Encrypting sensitive data
+2024-10-17 21:13:10.613 [ExecThread-2] DEBUG com.tradingapp.execution.ExecutionEngine - Processing batch job
+2024-10-17 21:13:11.046	[MarketDataThread-3] INFO com.tradingapp.auth.AuthenticationService - Portfolio rebalanced
+2024-10-17 21:13:11.541 [ExecThread-2] INFO com.tradingapp.execution.ExecutionEngine - Risk parameters evaluated
+2024-10-17 21:13:11.926	[TradeProcessor-10] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Lock acquired on resource
+2024-10-17 21:13:12.106	[main] INFO com.tradingapp.cache.CacheManager - Historical data loaded
+2024-10-17 21:13:12.581	[DataIngestion-12] INFO com.tradingapp.marketdata.MarketDataHandler - Trade settled successfully
+2024-10-17 21:13:12.583	[DataIngestion-12] INFO com.tradingapp.cache.CacheManager - Configuration loaded successfully
+2024-10-17 21:13:12.843 [NetworkThread-8] INFO com.tradingapp.order.OrderService - New trading session started
+2024-10-17 21:13:13.022 [CacheThread-5] WARN com.tradingapp.order.OrderService - Price deviation detected
+2024-10-17 21:13:13.139	[NotificationService-13] DEBUG com.tradingapp.network.NetworkManager - Capturing screenshot for debugging
+2024-10-17 21:13:13.275 [NetworkThread-8] DEBUG com.tradingapp.cache.CacheManager - Memory usage checked
+2024-10-17 21:13:13.472 [AnalyticsThread-7] INFO com.tradingapp.alert.AlertManager - Margin requirements updated
+2024-10-17 21:13:13.941 [AnalyticsThread-7] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Compressing log data
+2024-10-17 21:13:14.121 [DBThread-9] WARN com.tradingapp.auth.AuthenticationService - Slow response from database
+2024-10-17 21:13:14.415 [AnalyticsThread-7] ERR com.tradingapp.cache.CacheManager - Error writing to database
+2024-10-17 21:13:14.642 [CacheThread-5] INFO com.tradingapp.execution.ExecutionEngine - Market data update processed
+2024-10-17 21:13:14.792 [NetworkThread-8] ERROR com.tradingapp.alert.AlertManager - Failed to initialize cache
+2024-10-17 21:13:15.222	[AnalyticsThread-7] INFO com.tradingapp.execution.ExecutionEngine - User notification sent
+2024-10-17 21:13:15.518	[TradeProcessor-10] DEBUG com.tradingapp.network.NetworkManager - Refreshing API tokens
+2024-10-17 21:13:16.017 [DBThread-9] INFO com.tradingapp.utils.DatabaseConnector - Market data update processed
+2024-10-17 21:13:16.188 [DBThread-9] INFO com.tradingapp.auth.AuthenticationService - Configuration loaded successfully
+2024-10-17 21:13:16.570	[AlertThread-6] INFO com.tradingapp.network.NetworkManager - Portfolio rebalanced
+2024-10-17 21:13:17.061	[main] DEBUG com.tradingapp.cache.CacheManager - Scaling application instances
+2024-10-17 21:13:17.102 [NetworkThread-8] WARN com.tradingapp.analytics.AnalyticsProcessor - Unexpected user input received
+2024-10-17 21:13:17.303 [OrderThread-1] INFO com.tradingapp.network.NetworkManager - Connection established with exchange
+2024-10-17 21:13:17.529 [AlertThread-6] INFO com.tradingapp.marketdata.MarketDataHandler - Market data update processed
+2024-10-17 21:13:17.557 [RiskManager-11] WARN com.tradingapp.utils.DatabaseConnector - Failed to acquire necessary locks
+2024-10-17 21:13:18.052 [AlertThread-6] INFO com.tradingapp.config.ConfigLoader - Portfolio rebalanced
+2024-10-17 21:13:18.416	[OrderThread-1] WARN com.tradingapp.order.OrderService - External service response delayed
+2024-10-17 21:13:18.548	[NetworkThread-8] DEBUG com.tradingapp.network.NetworkManager - Loading external libraries
+2024-10-17 21:13:18.639	[RiskManager-11] INFO com.tradingapp.network.NetworkManager - User preferences saved
+2024-10-17 21:13:18.893 [CacheThread-5] INFO com.tradingapp.marketdata.MarketDataHandler - Portfolio rebalanced
+2024-10-17 21:13:19.046	[DataIngestion-12] INFO com.tradingapp.utils.DatabaseConnector - Risk parameters evaluated
+2024-10-17 21:13:19.298	[DBThread-9] WARN com.tradingapp.analytics.AnalyticsProcessor - Failed to send heartbeat
+2024-10-17 21:13:19.577	[ExecThread-2] DEBUG com.tradingapp.alert.AlertManager - Managing thread pool
+2024-10-17 21:13:19.612 [NotificationService-13] WARN com.tradingapp.cache.CacheManager - Data inconsistency found
+2024-10-17 21:13:20.037 [AnalyticsThread-7] INFO com.tradingapp.alert.AlertManager - Trade history archived
+2024-10-17 21:13:20.432 [ExecThread-2] DEBUG com.tradingapp.alert.AlertManager - Capturing screenshot for debugging
+2024-10-17 21:13:20.630 [ExecThread-2] INFO com.tradingapp.config.ConfigLoader - User notification sent
+2024-10-17 21:13:20.815 [BackupThread-15] INFO com.tradingapp.config.ConfigLoader - Liquidity provision optimized
+2024-10-17 21:13:21.070 [main] DEBUG com.tradingapp.auth.AuthenticationService - Decompressing data stream
+2024-10-17 21:13:21.102 [TradeProcessor-10] DEBUG com.tradingapp.marketdata.MarketDataHandler - Updating cache entries
+2024-10-17 21:13:21.184 [AnalyticsThread-7] ERROR com.tradingapp.config.ConfigLoader - Failed to connect to database
+2024-10-17 21:13:21.399 [CacheThread-5] WARN com.tradingapp.order.OrderService - Invalid trade signal received
+2024-10-17 21:13:21.511	[BackupThread-15] DEBUG com.tradingapp.order.OrderService - Initializing module dependencies
+2024-10-17 21:13:21.657	[OrderThread-1] INFO com.tradingapp.cache.CacheManager - Liquidity provision optimized
+2024-10-17 21:13:22.002	[AnalyticsThread-7] WARN com.tradingapp.order.OrderService - Failed to acquire necessary locks
+2024-10-17 21:13:22.269	[RiskManager-11] INFO com.tradingapp.auth.AuthenticationService - User preferences saved
+2024-10-17 21:13:22.502	[RiskManager-11] INFO com.tradingapp.alert.AlertManager - User logged in successfully
+2024-10-17 21:13:22.999	[NetworkThread-8] INFO - User notification sent
+2024-10-17 21:13:23.446 [ExecThread-2] WARN com.tradingapp.analytics.AnalyticsProcessor - Order quantity exceeds threshold
+2024-10-17 21:13:23.884	[MarketDataThread-3] DEBUG com.tradingapp.network.NetworkManager - Managing thread pool
+2024-10-17 21:13:24.045 [RiskManager-11] WARN com.tradingapp.cache.CacheManager - Connection timeout with broker
+2024-10-17 21:13:24.136 [RiskManager-11] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Monitoring system health
+2024-10-17 21:13:24.393	[NotificationService-13] DEBUG com.tradingapp.alert.AlertManager - Configuring network settings
+2024-10-17 21:13:24.682	[DBThread-9] DEBUG - Refreshing API tokens
+2024-10-17 21:13:25.153 [main] DEBUG com.tradingapp.config.ConfigLoader - Decrypting received data
+2024-10-17 21:13:25.314	[AlertThread-6] ERROR com.tradingapp.execution.ExecutionEngine - ArrayIndexOutOfBoundsException in MarketDataHandler
+2024-10-17 21:13:25.353	[MarketDataThread-3] INFO com.tradingapp.order.OrderService - Historical data loaded
+2024-10-17 21:13:25.617 [AlertThread-6] DEBUG com.tradingapp.order.OrderService - Establishing secure connection
+2024-10-17 21:13:25.663	[RiskManager-11] DEBUG - Parsing configuration file
+2024-10-17 21:13:25.895 [AlertThread-6] DEBUG com.tradingapp.cache.CacheManager - Thread synchronization complete
+2024-10-17 21:13:26.378	[OrderThread-1] DEBUG com.tradingapp.config.ConfigLoader - Processing trade execution
+2024-10-17 21:13:26.561	[NotificationService-13] WARN com.tradingapp.auth.AuthenticationService - Slow response from database
+2024-10-17 21:13:26.912	[DataIngestion-12] DEBUG - Monitoring system health
+2024-10-17 21:13:27.273	[main] DEBUG com.tradingapp.alert.AlertManager - Deserializing market data
+2024-10-17 21:13:27.766	[AuthThread-4] INFO com.tradingapp.analytics.AnalyticsProcessor - Compliance check passed
+2024-10-17 21:13:27.916	[DBThread-9] ERR ... - Error during shutdown process
+2024-10-17 21:13:27.990 [NotificationService-13] DEBUG com.tradingapp.utils.DatabaseConnector - Scaling application instances
+2024-10-17 21:13:28.178 [NetworkThread-8] INFO - Order status synchronized
+2024-10-17 21:13:28.376	[ExecThread-2] INFO com.tradingapp.utils.DatabaseConnector - Order book updated
+2024-10-17 21:13:28.460	[OrderThread-1] DEBUG com.tradingapp.config.ConfigLoader - Debugging authentication flow
+2024-10-17 21:13:28.824 [NotificationService-13] DEBUG com.tradingapp.alert.AlertManager - Optimizing query performance
+2024-10-17 21:13:29.106 [NotificationService-13] DEBUG com.tradingapp.cache.CacheManager - Scaling application instances
+2024-10-17 21:13:29.470	[main] WARN com.tradingapp.auth.AuthenticationService - Unsupported protocol version
+2024-10-17 21:13:29.796	[AuthThread-4] DEBUG com.tradingapp.auth.AuthenticationService - Decrypting received data
+2024-10-17 21:13:29.948 [CacheThread-5] WARN com.tradingapp.analytics.AnalyticsProcessor - Price deviation detected
+2024-10-17 21:13:30.391	[TradeProcessor-10] WARN com.tradingapp.execution.ExecutionEngine - Failed to send heartbeat
+2024-10-17 21:13:30.675	[AuthThread-4] WARN com.tradingapp.auth.AuthenticationService - Data inconsistency found
+2024-10-17 21:13:31.169 [main] DEBUG com.tradingapp.order.OrderService - Serializing response payload
+2024-10-17 21:13:31.223 [CacheThread-5] DEBUG com.tradingapp.alert.AlertManager - Cache refreshed
+2024-10-17 21:13:31.616 [main] DEBUG com.tradingapp.cache.CacheManager - Capturing screenshot for debugging
+2024-10-17 21:13:31.863 [NotificationService-13] INFO com.tradingapp.auth.AuthenticationService - Asset allocation adjusted
+2024-10-17 21:13:32.034	[MarketDataThread-3] INFO com.tradingapp.execution.ExecutionEngine - Order book updated
+2024-10-17 21:13:32.310 [main] WARN com.tradingapp.network.NetworkManager - Slow response from database
+2024-10-17 21:13:32.342	[ReportGenerator-14] WARN com.tradingapp.cache.CacheManager - Potential deadlock detected
+2024-10-17 21:13:32.725 [AnalyticsThread-7] ERR ... - Failed to process order
+2024-10-17 21:13:32.963	[ReportGenerator-14] INFO com.tradingapp.utils.DatabaseConnector - Trade confirmation received
+2024-10-17 21:13:33.245 [AuthThread-4] DEBUG com.tradingapp.marketdata.MarketDataHandler - Configuring network settings
+2024-10-17 21:13:33.610 [CacheThread-5] INFO com.tradingapp.cache.CacheManager - User notification sent
+2024-10-17 21:13:33.766	[MarketDataThread-3] WARN com.tradingapp.execution.ExecutionEngine - Cache miss occurred
+2024-10-17 21:13:33.894	[NetworkThread-8] INFO com.tradingapp.utils.DatabaseConnector - Trade history archived
+2024-10-17 21:13:34.084	[CacheThread-5] DEBUG com.tradingapp.auth.AuthenticationService - Refreshing API tokens
+2024-10-17 21:13:34.284 [RiskManager-11] WARN com.tradingapp.network.NetworkManager - Unexpected user input received
+2024-10-17 21:13:34.327 [MarketDataThread-3] DEBUG com.tradingapp.cache.CacheManager - Validating transaction integrity
+2024-10-17 21:13:34.644	[RiskManager-11] DEBUG com.tradingapp.execution.ExecutionEngine - Executing background job
+2024-10-17 21:13:34.919	[AuthThread-4] DEBUG com.tradingapp.marketdata.MarketDataHandler - Validating transaction integrity
+2024-10-17 21:13:35.071 [CacheThread-5] DEBUG com.tradingapp.execution.ExecutionEngine - Validating transaction integrity
+2024-10-17 21:13:35.413 [TradeProcessor-10] DEBUG com.tradingapp.cache.CacheManager - Latency measurement taken
+2024-10-17 21:13:35.560	[AuthThread-4] WARN com.tradingapp.utils.DatabaseConnector - Retrying connection to exchange
+2024-10-17 21:13:35.730 [AlertThread-6] WARN com.tradingapp.network.NetworkManager - Service latency above threshold
+2024-10-17 21:13:36.007	[ExecThread-2] INFO com.tradingapp.config.ConfigLoader - Order status synchronized
+2024-10-17 21:13:36.442	[NotificationService-13] WARN com.tradingapp.execution.ExecutionEngine - Configuration parameter missing, using default
+2024-10-17 21:13:36.775	[AlertThread-6] DEBUG - Executing background job
+2024-10-17 21:13:37.132 [CacheThread-5] DEBUG com.tradingapp.analytics.AnalyticsProcessor - Synchronizing database state
+2024-10-17 21:13:37.453	[NetworkThread-8] WARN com.tradingapp.marketdata.MarketDataHandler - Order quantity exceeds threshold
+2024-10-17 21:13:37.873 [NetworkThread-8] DEBUG - Thread started
+2024-10-17 21:13:38.122 [NetworkThread-8] WARN com.tradingapp.order.OrderService - Potential deadlock detected
+2024-10-17 21:13:38.250	[MarketDataThread-3] WARN com.tradingapp.utils.DatabaseConnector - Partial fill received
+2024-10-17 21:13:38.279	[AuthThread-4] DEBUG com.tradingapp.config.ConfigLoader - Serializing order object
+2024-10-17 21:13:38.755 [ReportGenerator-14] DEBUG com.tradingapp.cache.CacheManager - Deserializing market data
+2024-10-17 21:13:39.140 [NotificationService-13] ERR ... - Failed to release resources
+2024-10-17 21:13:39.316 [DataIngestion-12] INFO com.tradingapp.alert.AlertManager - Trade limit reset
+2024-10-17 21:13:39.425	[NetworkThread-8] INFO com.tradingapp.cache.CacheManager - User logged in successfully
+2024-10-17 21:13:39.474 [BackupThread-15] ERROR com.tradingapp.analytics.AnalyticsProcessor - IOException in NetworkManager
+2024-10-17 21:13:39.645 [DataIngestion-12] WARN com.tradingapp.alert.AlertManager - Connection timeout with broker
+2024-10-17 21:13:39.676	[TradeProcessor-10] INFO com.tradingapp.auth.AuthenticationService - Order book updated
+2024-10-17 21:13:39.864	[main] INFO com.tradingapp.execution.ExecutionEngine - Risk parameters evaluated
+2024-10-17 21:13:40.025	[DataIngestion-12] WARN com.tradingapp.order.OrderService - External service response delayed
+2024-10-17 21:13:40.114	[BackupThread-15] INFO com.tradingapp.analytics.AnalyticsProcessor - User preferences saved

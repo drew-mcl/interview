@@ -1,0 +1,11 @@
+	1) Develop a Program to Count the ammount of errors in a log file
+	    Ensure that both ERROR and ERR entries are accurately identified and counted. [Candidate should asses their are different types of ERROR and ERR]
+	2)	Enhance the Program to Display Error Counts and Messages
+	    •	Now, output each error in the format ERROR: [message].
+	3)	Implement Full Stack Trace Display for Errors with Stack Traces
+	    •   Ensure that errors accompanied by stack traces display the complete stack trace.
+	    •	Capture the lines following an error message that are part of the stack trace, particularly those not starting with a timestamp.
+	    •	Differentiate configuration output from stack trace information to maintain clarity.
+	4)	Group Errors by Thread in the Output
+	    •	Organize and display errors grouped by their respective threads.
+	    •	Utilize sorting mechanisms to achieve effective grouping and enhance readability.
